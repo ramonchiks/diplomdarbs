@@ -1,0 +1,78 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* te sākās teksta lietas */
+
+.teksts {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hello {
+
+	width: 100%;
+	height: 10%;
+	display: inline;
+}
+
+.augsejaisteksts {
+
+	width: 100%;
+	height: 10%;
+	display: none;
+}
+
+.yesno {
+  display: none;
+  width: 20%;
+  height: 20%;
+}
+
+.yes {
+  display: none;
+  width: 20%;
+  height: 20%;
+}
+
+.no {
+  display: none;
+  width: 20%;
+  height: 20%;
+}
+
+.ifyes {
+	width: 100%;
+	height: 10%;
+	display: none;
+}
+
+.ifno {
+	width: 100%;
+	height: 10%;
+	display: none;
+}
+
+.story {
+	width: 100%;
+	height: 10%;
+	display: none;
+}
+
+p {
+	margin: 0%;
+}
+
+a {
+text-decoration: none;
+color: black;
+
+}
