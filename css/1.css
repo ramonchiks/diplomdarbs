@@ -6,8 +6,14 @@ html, body {
     bottom: 0px;
     width: 100%;
     height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
 }
 
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
 
 /* te sākās teksta lietas */
 
@@ -15,26 +21,31 @@ html, body {
 	position: absolute;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 
 .hello {
 
 	width: 100%;
 	height: 10%;
-	display: inline;
+	display: block;
+  margin-top: 16%;
+  font-size: 10vw;
 }
 
 .augsejaisteksts {
 
 	width: 100%;
-	height: 10%;
+	height: 25%;
 	display: none;
+  font-size: 5vw;
 }
 
 .yesno {
   display: none;
   width: 20%;
   height: 20%;
+  font-size: 7vw;
 }
 
 .yes {
@@ -53,18 +64,22 @@ html, body {
 	width: 100%;
 	height: 10%;
 	display: none;
+  font-size: 7vw;
 }
 
 .ifno {
 	width: 100%;
 	height: 10%;
 	display: none;
+  font-size: 7vw;
 }
 
 .story {
 	width: 100%;
 	height: 10%;
 	display: none;
+  font-size: 5vw;
+  margin-top: 10%;
 }
 
 p {

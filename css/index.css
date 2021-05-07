@@ -6,16 +6,24 @@ html, body {
     bottom: 0px;
     width: 100%;
     height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
 }
 
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
 
 /* te sākās teksta lietas */
 
 .valoda {
 
 	display: inline-block;
-	width: 20%;
+	width: 30%;
 	height: 20%;
+    margin-top: 16%;
+    font-size: 10vw;
 }
 
 a {

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$(".hello").click(function(){
 
-		$(".augsejaisteksts").css("display", "inline")
+		$(".augsejaisteksts").css("display", "block")
 		$(".yesno, .yes, .no").css("display", "inline-block")
 		$(".hello").css("display", "none")
 
@@ -28,7 +28,7 @@ $(document).ready(function(){
 //ceļojums sākas!!!
 
 	$(".ifyes").click(function(){
-		$(".story").css("display", "inline");
+		$(".story").css("display", "block");
 		$(".ifyes").css("display", "none");
 
 	});
