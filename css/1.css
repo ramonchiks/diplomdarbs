@@ -22,6 +22,7 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
+        color: #EC045C;
 }
 
 .hello {
@@ -51,29 +52,32 @@ html, body {
 .yes {
   display: none;
   width: 20%;
-  height: 20%;
+  min-height: 5%;
   margin: 0%;
 }
 
 .no {
   display: none;
   width: 20%;
-  height: 20%;
+  min-height: 5%;
   margin: 0%;
 }
 
 .ifyes {
 	width: 100%;
-	height: 10%;
+	min-height: 10%;
 	display: none;
   font-size: 7vw;
+  margin-top: 17%;
+
 }
 
 .ifno {
 	width: 100%;
-	height: 10%;
+	min-height: 10%;
 	display: none;
   font-size: 7vw;
+    margin-top: 17%;
 }
 
 .story {
@@ -96,6 +100,40 @@ p {
 
 a {
 text-decoration: none;
-color: black;
-
+color: #EC045C;
 }
+
+/*Te iet noformējuma lietas*/
+
+.fons {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FADEE9;  
+}
+
+img {
+  max-width: 23%;
+  height: auto;
+  display: inline-block;
+}
+
+/*.kreisapuseApaksa {
+  position: absolute;
+  bottom: 0;
+}
+
+.labapuseApaksa {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  transform: scaleX(-1);
+}
+
+.otraisKreisais {
+  left: 10%;
+}
+
+.otraisLabais {
+  right: 10%;
+} */

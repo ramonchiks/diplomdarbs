@@ -5,7 +5,9 @@ $(document).ready(function(){
 
 		writethis("I would like to tell you a story. \n Are you willing to listen?", ".hello")
 		$(".hello").css("font-size", "5vw")
-
+		$(".hello").css("height", "17%")
+		$(".hello").css("margin-top", "12%")
+		$(".hello").css("margin-bottom", "7%")
 		$(".yes, .no").css("display", "inline-block")
 		writethis1("YES", ".yes")
 		writethis2("NO", ".no")
@@ -13,34 +15,27 @@ $(document).ready(function(){
 	});
 
 
-
-	//$(".hello").click(function(){
-	//	$(".hello").css("display", "none")
-	//})
-
-	/* $(".augsejaisteksts").mouseover(function(){
-		$(".yesno, .yes, .no").css("display", "inline-block")
-		writethis("YES", ".yes")
-		writethis("NO", ".no")
-	}) */
-
 // apakšā: no yes/no uz attiecīgajiem rezultātiem
 
 
 	$(".yes").click(function(){
-		$(".ifyes").css("display", "inline")
+		$(".ifyes").css("display", "block")
 		writethis("Thanks :)", ".ifyes")
 		$(".yesno, .yes, .no, .hello").css("display", "none")
 	});
 
 	$(".no").click(function(){
-		$(".ifno").css("display", "inline")
+		$(".ifno").css("display", "block")
 		writethis(":(", ".ifno")
 		$(".yesno, .yes, .no, .hello").css("display", "none")
+		$(".fons").css("background-color", "#03140D")
+		$(".ifno").css("color", "#13FBA3")
 	});
 
 	$(".ifyes").mouseover(function(){
 		$(".ifyes").html("tHaNks :(");
+		$(".fons").css("background-color", "#03140D")
+		$(".teksts").css("color", "#13FBA3")
 	});
 
 //ceļojums sākas!!!
@@ -48,6 +43,7 @@ $(document).ready(function(){
 	$(".ifyes").click(function(){
 		$(".story").css("display", "block");
 		$(".ifyes").css("display", "none");
+		$(".teksts").css("color", "#FADEE9")
 		writethis("I have never lived \n in a world without the internet", ".story")
 
 	});
