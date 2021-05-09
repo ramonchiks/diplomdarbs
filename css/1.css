@@ -52,12 +52,14 @@ html, body {
   display: none;
   width: 20%;
   height: 20%;
+  margin: 0%;
 }
 
 .no {
   display: none;
   width: 20%;
   height: 20%;
+  margin: 0%;
 }
 
 .ifyes {
@@ -75,11 +77,17 @@ html, body {
 }
 
 .story {
-	width: 100%;
 	height: 10%;
 	display: none;
   font-size: 5vw;
-  margin-top: 10%;
+  margin-top: 15%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+}
+
+.new-line {
+  white-space: pre-line;
 }
 
 p {
