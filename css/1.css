@@ -90,6 +90,27 @@ html, body {
   max-width: 80%;
 }
 
+.story2 {
+  height: 10%;
+  display: none;
+  font-size: 5vw;
+  margin-top: 25%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+}
+
+.story3 {
+  height: 10%;
+  display: none;
+  font-size: 5vw;
+  margin-top: 25%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  color: #FADEE9;
+}
+
 .new-line {
   white-space: pre-line;
 }
@@ -118,7 +139,39 @@ img {
   display: inline-block;
 }
 
-/*.kreisapuseApaksa {
+.acs1{
+  width: 35%;
+  float: left;
+  margin-right: 5%;
+}
+
+.acs2 {
+  width: 35%;
+  overflow: hidden;
+}
+
+.acis {
+  width: 60%;
+  height: 40%;
+  margin-top: 17.5%;
+  margin-left: 28%;
+  display: none;
+
+}
+
+.temp {
+  width: 60%;
+  height: 40%;
+  margin-top: 17.5%;
+  margin-left: 28%;
+  display: none;
+}
+
+
+
+/*
+te vnk guide bildēm
+.kreisapuseApaksa {
   position: absolute;
   bottom: 0;
 }
