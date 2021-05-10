@@ -266,24 +266,3 @@ img {
     transform: scaleX(-1);
 }
 
-/*
-te vnk guide bildēm
-.kreisapuseApaksa {
-  position: absolute;
-  bottom: 0;
-}
-
-.labapuseApaksa {
-  position: absolute;
-  bottom: 0;
-  right:0;
-  transform: scaleX(-1);
-}
-
-.otraisKreisais {
-  left: 10%;
-}
-
-.otraisLabais {
-  right: 10%;
-} */

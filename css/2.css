@@ -1,0 +1,54 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
+
+/* te sākās teksta lietas */
+
+.teksts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+        color: #03140D;
+}
+
+.story {
+    height: 10%;
+    display: block;
+  font-size: 5vw;
+  margin-top: 15%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+a {
+text-decoration: none;
+color: #EC045C;
+}
+
+/*Te iet noformējuma lietas*/
+
+.fons {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #e8cdd4, #af9992, #72695c, #393d31, #03140d);
+}
