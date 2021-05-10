@@ -21,6 +21,7 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("and so I did", ".story")
+		$(".temp").css("display", "block")
 
 	})
 
