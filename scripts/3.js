@@ -14,7 +14,7 @@ $(document).ready(function(){
 		writethis("my reality quickly became focused \n on crafting an image of myself ", ".story")
 
 	$(".story").click(function(){
-		writethis("for people I dind't know to look at", ".story")
+		writethis("for people I didn't know to look at", ".story")
 
 	$(".story").click(function(){
 		writethis("Every word I said and \n every picture I posted", ".story")
