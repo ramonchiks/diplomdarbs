@@ -30,7 +30,7 @@ html, body {
 	width: 100%;
 	height: 10%;
 	display: block;
-  margin-top: 16%;
+  margin-top: 17%;
   font-size: 10vw;
 }
 
@@ -134,8 +134,6 @@ color: #EC045C;
 }
 
 img {
-  max-width: 23%;
-  height: auto;
   display: inline-block;
 }
 
@@ -167,7 +165,106 @@ img {
   display: none;
 }
 
+.labapuse {
+  transform: scaleX(-1);
+}
 
+.puke1 {
+  position: absolute;
+  top: 0.5%;
+  left:-10%;
+    max-width: 23%;
+  height: auto;
+  transform: rotate(13deg);
+}
+
+.puke2 {
+  position: absolute;
+  bottom: -14%;
+  left: -10%;
+  max-width: 27%;
+  height: auto;
+  transform: rotate(4deg);
+
+}
+
+.puke3 {
+  position: absolute;
+  max-width: 13.5%;
+  height: auto;
+  bottom: -3%;
+  left: 3%;
+  transform: rotate(5deg);
+}
+
+.puke4{
+  position: absolute;
+  max-width: 15%;
+  height: auto;
+  bottom: -0.7%;
+  left: 11%;
+  transform: rotate(6deg);
+}
+
+.puke5 {
+  position: absolute;
+  max-width: 5%;
+  height: auto;
+  bottom: -0.9%;
+  left: 24%;
+  transform: rotate(5deg);
+}
+
+.puke1right {
+  position: absolute;
+  top: 0.5%;
+  right:-10%;
+    max-width: 23%;
+  height: auto;
+  transform: rotate(13deg);
+    transform: scaleX(-1);
+}
+
+.puke2right {
+  position: absolute;
+  bottom: -14%;
+  right: -10%;
+  max-width: 27%;
+  height: auto;
+  transform: rotate(4deg);
+    transform: scaleX(-1);
+
+}
+
+.puke3right {
+  position: absolute;
+  max-width: 13.5%;
+  height: auto;
+  bottom: -3%;
+  right: 3%;
+  transform: rotate(5deg);
+    transform: scaleX(-1);
+}
+
+.puke4right {
+  position: absolute;
+  max-width: 15%;
+  height: auto;
+  bottom: -0.7%;
+  right: 11%;
+  transform: rotate(6deg);
+    transform: scaleX(-1);
+}
+
+.puke5right {
+  position: absolute;
+  max-width: 5%;
+  height: auto;
+  bottom: -0.9%;
+  right: 24%;
+  transform: rotate(5deg);
+    transform: scaleX(-1);
+}
 
 /*
 te vnk guide bildēm

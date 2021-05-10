@@ -30,12 +30,14 @@ $(document).ready(function(){
 		$(".yesno, .yes, .no, .hello").css("display", "none")
 		$(".fons").css("background-color", "#03140D")
 		$(".ifno").css("color", "#13FBA3")
+		$("img").css("filter", "invert(100%)")
 	});
 
 	$(".ifyes").mouseover(function(){
 		$(".ifyes").html("tHaNks :(");
 		$(".fons").css("background-color", "#03140D")
 		$(".teksts").css("color", "#13FBA3")
+		$("img").css("filter", "invert(100%)")
 	});
 
 //ceļojums sākas!!!
@@ -79,6 +81,7 @@ $(document).ready(function(){
  		$(".story").css("display", "none")
  		$(".acis").css("display", "block")
  		$(".temp").css("display", "block")
+ 		$("img").css("display", "none")
 
 //te jānāk iekšā vektoru acīm
 
