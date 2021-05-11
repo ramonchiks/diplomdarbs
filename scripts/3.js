@@ -18,7 +18,53 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("and so I did", ".story")
+
+	$(".story").click(function(){
+		$(".teksts").css("display", "none")
+		$(".sparklegrid").css("background-image", "none")
+		$(".sparklegrid").css("background-color", "#03140D")
+		$(".sparkle, .sparkleatrak, .majassienas, .atvertasdurvis, .apalaisrokturis, .ovalaisrokturis").css("fill", "#f7dce6")
+		$(".majaslogi").css("fill", "#03140d")
+
+	$(".fons").click(function(){
+		$(".maaja").css("width", "30%")
+		$(".maaja").css("height", "40%")
+		$(".maaja").css("margin-left", "35%")
+		$(".maaja").css("bottom", "20%")
+		$(".sparkle, .sparkleatrak").css("display", "none")
+
+	$(".fons").click(function(){
+		$(".maaja").css("width", "50%")
+		$(".maaja").css("height", "65%")
+		$(".maaja").css("margin-left", "25%")
+		$(".maaja").css("bottom", "30%")
+
+	$(".fons").click(function(){
+		//$(".apalaisrokturis").css("display", "block")
+		$(".apalaisrokturis").css("fill", "#03140D")
+
+	$(".apalaisrokturis").click(function(){
+		$(".apalaisrokturis").css("fill", "#f7dce6")
+		$(".ovalaisrokturis").css("fill", "#03140D")
+		$(".atvertasdurvis").css("fill", "#03140D")
+		//$(".atvertasdurvis").attr("href", moshtevarkkaaielikturl)
+//naakamais ir temporary
+
+	$(".atvertasdurvis").click(function(){
+		$(".teksts").css("display", "block")
 		$(".temp").css("display", "block")
+		writethis("", ".story")
+	})
+
+	})
+
+	})
+
+	})
+
+	})
+
+	})
 
 	})
 

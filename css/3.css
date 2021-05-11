@@ -99,6 +99,7 @@ color: #EC045C;
   margin-top: 20%;
   width: 100%;
   text-align: center;
+  font-size: 10vw;
 }
 
 /* te animācijas!!! */
@@ -262,3 +263,15 @@ color: #EC045C;
   height: auto;
   grid-area: 2 / 3 / 2 / 4;
 }
+
+/*.apalaisrokturis{
+  display: none;
+}
+
+.ovalaisrokturis{
+  display: none;
+}
+
+.atvertasdurvis{
+  display: none;
+} */
