@@ -171,7 +171,7 @@ img {
 
 .puke1 {
   position: absolute;
-  top: 0.5%;
+  bottom: 15%;
   left:-10%;
     max-width: 23%;
   height: auto;
@@ -217,8 +217,8 @@ img {
 
 .puke1right {
   position: absolute;
-  top: 0.5%;
-  right:-10%;
+  bottom: 13.5%;
+  right:-12%;
     max-width: 23%;
   height: auto;
   transform: rotate(13deg);
