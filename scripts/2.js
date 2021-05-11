@@ -1,41 +1,44 @@
 $(document).ready(function(){
-	writethis("One of the greatest charms \n of the internet", ".story")
 
-	$(".story").click(function(){
-		writethis("is that you get to build \n a world of your own", ".story")
+	$(".temp").click(function(){
+	$(".story").css("display", "block")
+	writethis("Thirteen is just a \n generally horrible age to be", ".story")
+	$(".acis").css("margin-top", "7%")
+	$(".temp").css("display", "none")
 
-	$(".story").click(function(){
-		writethis("In the wonderfully nonphysical \n space of the web", ".story")
 
-	$(".story").click(function(){
-		writethis("you get to build yourself anew", ".story")
+ 	$(".story").click(function(){
+ 		writethis("Changes happen faster \n than you can grasp them happening", ".story")
 
-	$(".story").click(function(){
-		writethis("you get to choose what to show", ".story")
+ 	$(".story").click(function(){
+ 		writethis("You become so sickeningly aware \n of yourself in ways you never thought \n were possible before", ".story")
 
-	$(".story").click(function(){
-		writethis("and what to keep hidden", ".story")
+ 	$(".story").click(function(){
+ 		writethis(". . .", ".story")
 
-	$(".story").click(function(){
-		writethis("It isn't hard to see how tempting \n that becomes for someone wishing \n to escape reality", ".story")
+ 	$(".story").click(function(){
+ 		writethis("Being seen was truly the last thing \n I wanted at the time", ".story")
 
-	$(".story").click(function(){
-		writethis("and so I did", ".story")
-		$(".temp").css("display", "block")
+ 	$(".story").click(function(){
+ 		writethis("The world had suddenly become \n so painful and gross", ".story")
 
+ 	$(".story").click(function(){
+ 		$(".story").css("display", "none")
+ 		$(".story3").css("display", "block")
+ 		writethis("and I wanted out", ".story3")
+
+ 	})
+
+ 	})
+
+ 	})
+
+ 	})
+ 
+ 	})
+
+ 	})
+	
 	})
 
-	})
-
-	})
-
-	})
-
-	})
-
-	})
-
-	})
 })
-
-

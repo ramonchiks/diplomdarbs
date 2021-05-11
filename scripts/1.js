@@ -79,7 +79,9 @@ $(document).ready(function(){
  		writethis("how much easier it can sometimes be \n to talk to a complete stranger,", ".story")
 
  	$(".story").click(function(){
- 		writethis("especially if you never have \n to look them in the eye", ".story")
+ 		writethis("especially if you never have \n to look them in the eye", ".story2")
+ 		$(".story").css("display", "none")
+ 		$(".story2").css("display", "block")
 
  	$(".story").click(function(){
  		$(".story").css("display", "none")
@@ -87,47 +89,6 @@ $(document).ready(function(){
  		$(".temp").css("display", "block")
  		$("img").css("display", "none")
 
-//te jānāk iekšā vektoru acīm
-
- 	$(".temp").click(function(){
- 		$(".story2").css("display", "block")
- 		writethis("Thirteen is just a \n generally horrible age to be", ".story2")
- 		$(".acis").css("margin-top", "7%")
- 		$(".temp").css("display", "none")
-
- 	$(".story2").click(function(){
- 		writethis("Changes happen faster \n than you can grasp them happening", ".story2")
-
- 	$(".story2").click(function(){
- 		writethis("You become so sickeningly aware \n of yourself in ways you never thought \n were possible before", ".story2")
-
- 	$(".story2").click(function(){
- 		writethis(". . .", ".story2")
-
- 	$(".story2").click(function(){
- 		writethis("Being seen was truly the last thing \n I wanted at the time", ".story2")
-
- 	$(".story2").click(function(){
- 		writethis("The world had suddenly become \n so painful and gross", ".story2")
-
- 	$(".story2").click(function(){
- 		$(".story2").css("display", "none")
- 		$(".story3").css("display", "block")
- 		writethis("and I wanted out", ".story3")
-
- 	})
-
- 	})
-
- 	})
-
- 	})
- 
- 	})
-
- 	})
-
- 	})
 
  	});
 
