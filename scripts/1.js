@@ -2,15 +2,19 @@ $(document).ready(function(){
 	writethis("Hello!", ".hello")
 
 	$(".hello").click(function(){
-
-		writethis("I would like to tell you a story. \n Are you willing to listen?", ".hello")
+		
 		$(".hello").css("font-size", "5vw")
 		$(".hello").css("height", "17%")
 		$(".hello").css("margin-top", "12%")
 		$(".hello").css("margin-bottom", "7%")
 		$(".yes, .no").css("display", "inline-block")
-		writethis1("YES", ".yes")
-		writethis2("NO", ".no")
+		writethis("I would like to tell you a story. \n Are you willing to listen?", ".hello", function(){
+			writethis1("YES", ".yes", function(){
+				writethis2("NO", ".no")
+			})
+		}
+		
+		)
 		
 	});
 
@@ -27,7 +31,7 @@ $(document).ready(function(){
 	$(".no").click(function(){
 		$(".ifno").css("display", "block")
 		writethis(":(", ".ifno")
-		$(".yesno, .yes, .no, .hello").css("display", "none")
+		$(".yes, .no, .hello").css("display", "none")
 		$(".fons").css("background-color", "#03140D")
 		$(".ifno").css("color", "#13FBA3")
 		$("img").css("filter", "invert(100%)")

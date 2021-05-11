@@ -42,25 +42,20 @@ html, body {
   font-size: 5vw;
 }
 
-.yesno {
-  display: none;
-  width: 20%;
-  height: 20%;
-  font-size: 7vw;
-}
-
 .yes {
   display: none;
   width: 20%;
-  min-height: 5%;
+  height: 20%;
   margin: 0%;
+  font-size: 7vw;
 }
 
 .no {
   display: none;
   width: 20%;
-  min-height: 5%;
+  height: 20%;
   margin: 0%;
+  font-size: 7vw;
 }
 
 .ifyes {

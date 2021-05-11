@@ -1,7 +1,5 @@
-
-
 var interval;
-function writethis(text, element) {
+function writethis(text, element, callback) {
   var speed = 50
   var position = 0
   
@@ -14,14 +12,15 @@ function writethis(text, element) {
       position++;
     } else {
       clearInterval(interval);
+      if(callback) {
+        callback()
+      }
     }
-  }, speed);
+  }, speed)
 }
 
-
-
 var interval1;
-function writethis1(text, element) {
+function writethis1(text, element, callback) {
   var speed1 = 50
   var position1 = 0
   
@@ -34,9 +33,14 @@ function writethis1(text, element) {
       position1++;
     } else {
       clearInterval(interval1);
+      if(callback) {
+        callback()
+      }
     }
-  }, speed1);
+  }, speed1)
 }
+
+
 
 var interval2;
 function writethis2(text, element) {
