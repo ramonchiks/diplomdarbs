@@ -1,5 +1,5 @@
 html, body {
-  position: absolute;
+  position: relative;
     margin: 0px;
     overflow: hidden;
     top: 0px;
@@ -8,6 +8,18 @@ html, body {
     height: 100%;
     font-family: diplomdarbs;
     text-align: center;
+}
+
+.viss{
+   width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.viss2{
+   width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 @font-face {
@@ -46,11 +58,40 @@ color: #EC045C;
 
 /*Te iet noformējuma lietas*/
 
+.sparklegrid {
+  position: absolute;
+  display: grid;
+   grid-template-columns: 1fr 1fr minmax(15%, 1fr);
+  
+  grid-gap: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #e8cdd4, #af9992, #72695c, #393d31, #03140d);
+}
+
+.sparklegrid2 {
+  position: absolute;
+  display: grid;
+   grid-template-columns: 1fr 1fr minmax(15%, 1fr);
+  
+  grid-gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
 .fons {
   position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #e8cdd4, #af9992, #72695c, #393d31, #03140d);
+
+}
+
+.maaja {
+    width: 15%;
+    height: 20%;
+    margin-left: 45%;
+    position: absolute;
+    bottom: 9%;
 }
 
 .temp {
@@ -58,4 +99,166 @@ color: #EC045C;
   margin-top: 20%;
   width: 100%;
   text-align: center;
+}
+
+/* te animācijas!!! */
+
+  .sparkle{
+    animation: spiid 1.5s alternate infinite ease-out;
+    transform-origin: center;
+    fill:#03140d;
+  }
+
+  @keyframes spiid {
+    0%   {transform: scale(.8);}
+    100% {transform: scale(1);}
+  }
+
+  .sparkleatrak{
+    animation: spiiid 0.8s alternate infinite ease-out;
+    transform-origin: center;
+    fill:#03140d;
+  }
+
+  @keyframes spiiid {
+    0%   {transform: scale(.75);}
+    100% {transform: scale(1);}
+  }
+
+  /* te katra atsevišķā sparkle klases!!! */
+
+.sparkle1{
+  padding: 20%;
+  max-width: 9%;
+  height: auto;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.sparkle2{
+  padding: 10%;
+  margin-left: 17%;
+  max-width: 7.5%;
+  height: auto;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.sparkle3{
+  padding: 13%;
+  max-width: 14%;
+  height: auto;
+  margin-left: 40%;
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.sparkle4{
+  padding: 20%;
+  max-width: 7%;
+  height: auto;
+  margin-left: 7%;
+  margin-top: 26%;
+  grid-area: 2 / 1 / 2 / 2;
+}
+
+.sparkle5{
+  padding: 20%;
+  max-width: 6%;
+  height: auto;
+  grid-area: 2 / 2 / 2 / 3;
+}
+
+.sparkle6{
+  padding: 20%;
+  max-width: 8%;
+  height: auto;
+  margin-top: 20%;
+  margin-left: 15%;
+  grid-area: 2 / 3 / 2 / 4;
+
+}
+
+.sparkle7{
+  padding: 20%;
+  max-width: 9%;
+  height: auto;
+}
+
+/* te ātrāko un Blakus turpat gridā ievietoto sparkle klases!!! */
+
+.sparkle1blakus{
+  padding: 20%;
+  max-width: 4%;
+  height: auto;
+  margin-top: 25%;
+  margin-left: 15%;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.sparkle2blakus{
+  padding: 20%;
+  max-width: 4%;
+  margin-left: 35%;
+  margin-top: 7%;
+  height: auto;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.sparkle3blakus{
+  padding: 20%;
+  max-width: 7%;
+  margin-top: 6%;
+  margin-left: 4%;
+  height: auto;
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.sparkle4blakus{
+  padding: 5%;
+  margin-top: 7%;
+  margin-left: 3%;
+  max-width: 5.5%;
+  height: auto;
+  grid-area: 2 / 1 / 2 / 2;
+}
+
+.sparkle5blakus{
+  padding: 5%;
+  max-width: 4%;
+  margin-left: 40%;
+  margin-top: 6%;
+  height: auto;
+  grid-area: 2 / 2 / 2 / 3;
+}
+
+.sparkle6blakus{
+  padding: 2%;
+  max-width: 4.5%;
+  margin-top: 50%;
+  height: auto;
+  grid-area: 2 / 3 / 2 / 4;
+}
+
+.sparkle3blakusvelreiz{
+  padding: 1%;
+  max-width: 7%;
+  height: auto;
+  margin-left: 80%;
+  margin-top: 50%;
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.sparkle4blakusvelreiz{
+  padding: 20%;
+  max-width: 13%;
+  height: auto;
+  margin-left: 27%;
+  margin-top: 4%;
+  grid-area: 2 / 1 / 2 / 2;
+}
+
+.sparkle6blakusvelreiz{
+  padding: 17%;
+  max-width: 3%;
+  margin-top: 12%;
+  height: auto;
+  grid-area: 2 / 3 / 2 / 4;
 }

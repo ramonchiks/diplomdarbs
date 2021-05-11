@@ -8,13 +8,10 @@ $(document).ready(function(){
 		writethis("In the wonderfully nonphysical \n space of the web", ".story")
 
 	$(".story").click(function(){
-		writethis("you get to build yourself anew", ".story")
+		writethis("you get to choose \n what to show", ".story")
 
 	$(".story").click(function(){
-		writethis("you get to choose what to show", ".story")
-
-	$(".story").click(function(){
-		writethis("and what to keep hidden", ".story")
+		writethis("and what \n to keep hidden", ".story")
 
 	$(".story").click(function(){
 		writethis("It isn't hard to see how tempting \n that becomes for someone wishing \n to escape reality", ".story")
@@ -22,8 +19,6 @@ $(document).ready(function(){
 	$(".story").click(function(){
 		writethis("and so I did", ".story")
 		$(".temp").css("display", "block")
-
-	})
 
 	})
 
