@@ -89,22 +89,12 @@ html, body {
   height: 10%;
   display: none;
   font-size: 5vw;
-  margin-top: 25%;
+  margin-top: 15%;
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
 }
 
-.story3 {
-  height: 10%;
-  display: none;
-  font-size: 5vw;
-  margin-top: 25%;
-  margin-left:10%;
-  margin-right: 10%; 
-  max-width: 80%;
-  color: #FADEE9;
-}
 
 .new-line {
   white-space: pre-line;
@@ -116,7 +106,7 @@ p {
 
 a {
 text-decoration: none;
-color: #EC045C;
+color: #FADEE9;
 }
 
 /*Te iet noformējuma lietas*/
@@ -130,34 +120,6 @@ color: #EC045C;
 
 img {
   display: inline-block;
-}
-
-.acs1{
-  width: 35%;
-  float: left;
-  margin-right: 5%;
-}
-
-.acs2 {
-  width: 35%;
-  overflow: hidden;
-}
-
-.acis {
-  width: 60%;
-  height: 40%;
-  margin-top: 17.5%;
-  margin-left: 28%;
-  display: none;
-
-}
-
-.temp {
-  width: 60%;
-  height: 40%;
-  margin-top: 17.5%;
-  margin-left: 28%;
-  display: none;
 }
 
 .labapuse {
