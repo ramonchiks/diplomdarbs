@@ -115,122 +115,64 @@ color: #FADEE9;
   position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #FADEE9;  
+    background-color: #FADEE9;
+    text-align: center;  
 }
 
 img {
   display: inline-block;
 }
 
-.labapuse {
-  transform: scaleX(-1);
-}
 
-.puke1 {
-  position: absolute;
-  bottom: 15%;
-  left:-10%;
-    max-width: 23%;
-  height: auto;
-  transform: rotate(13deg);
-}
-
-.puke2 {
-  position: absolute;
-  bottom: -14%;
-  left: -10%;
-  max-width: 27%;
-  height: auto;
-  transform: rotate(4deg);
-
-}
-
-.puke3 {
-  position: absolute;
-  max-width: 13.5%;
-  height: auto;
-  bottom: -3%;
-  left: 3%;
-  transform: rotate(5deg);
-}
-
-.puke4{
-  position: absolute;
-  max-width: 15%;
-  height: auto;
-  bottom: -0.7%;
-  left: 11%;
-  transform: rotate(6deg);
-}
-
-.puke5 {
-  position: absolute;
-  max-width: 5%;
-  height: auto;
-  bottom: -0.9%;
-  left: 24%;
-  transform: rotate(5deg);
-}
-
-.puke1right {
-  position: absolute;
-  bottom: 13.5%;
-  right:-12%;
-    max-width: 23%;
-  height: auto;
-  transform: rotate(13deg);
-    transform: scaleX(-1);
-}
-
-.puke2right {
-  position: absolute;
-  bottom: -14%;
-  right: -10%;
-  max-width: 27%;
-  height: auto;
-  transform: rotate(4deg);
-    transform: scaleX(-1);
-
-}
-
-.puke3right {
-  position: absolute;
-  max-width: 13.5%;
-  height: auto;
-  bottom: -3%;
-  right: 3%;
-  transform: rotate(5deg);
-    transform: scaleX(-1);
-}
-
-.puke4right {
-  position: absolute;
-  max-width: 15%;
-  height: auto;
-  bottom: -0.7%;
-  right: 11%;
-  transform: rotate(6deg);
-    transform: scaleX(-1);
-}
-
-.puke5right {
-  position: absolute;
-  max-width: 5%;
-  height: auto;
-  bottom: -0.9%;
-  right: 24%;
-  transform: rotate(5deg);
-    transform: scaleX(-1);
-}
-
-/* test parallax nokopeets*/
+/*  parallax */
 
 .parallax-viewport {
-    position: fixed;     /* relative, absolute, fixed  --- ja es nomainu uz relative, kipa strādā, bet ne tā, kā vajadzētu, plus viss pārējais pazūd*/
+    position: fixed;    
     overflow: hidden; 
     width: 100%;
     height: 100%; 
 }
 .parallax-layer {
     position: absolute;
+}
+
+
+.sakumapuke{
+  position: absolute;
+  max-width: 120%;
+  height: auto;
+  bottom: -22%;
+  left: -11%;
+}
+
+.pukearpumpuru{
+  position: absolute;
+  max-width: 120%;
+  height: auto;
+  bottom: -25%;
+  left: -11%;
+}
+
+.asninsvidu{
+  position: absolute;
+  max-width: 120%;
+  height: auto;
+  bottom: -20%;
+  left: -11%;
+}
+
+.tornis{
+  position: absolute;
+  max-width: 120%;
+  height: auto;
+  bottom: -17%;
+  left: -11%;
+}
+
+.asninsmala{
+  position: absolute;
+  max-width: 125%;
+  height: auto;
+  bottom: -15%;
+  left: -13%;
 }
