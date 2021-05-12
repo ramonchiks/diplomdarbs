@@ -70,7 +70,7 @@ $(document).ready(function(){
  		writethis("I don't think people realise \n quite how much the internet \n has changed the world", ".story")
 
  	$(".story").click(function(){
- 		writethis("I don't think that's possible just yet", ".story")
+ 		writethis("I don't think that's possible \n just yet", ".story")
 
  	$(".story").click(function(){
  		writethis("Among many other things, \n it gave a chance for people to realise", ".story")

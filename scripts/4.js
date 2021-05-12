@@ -6,6 +6,8 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("and I started building myself \n from the ground up", ".story")
+		$("#viens").removeClass(".transparent")
+		$("#viens").addClass(".visible")
 
 	$(".story").click(function(){
 		writethis("And, without really noticing it", ".story")
