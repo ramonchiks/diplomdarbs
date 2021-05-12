@@ -223,3 +223,14 @@ img {
     transform: scaleX(-1);
 }
 
+/* test parallax nokopeets*/
+
+.parallax-viewport {
+    position: fixed;     /* relative, absolute, fixed  --- ja es nomainu uz relative, kipa strādā, bet ne tā, kā vajadzētu, plus viss pārējais pazūd*/
+    overflow: hidden; 
+    width: 100%;
+    height: 100%; 
+}
+.parallax-layer {
+    position: absolute;
+}

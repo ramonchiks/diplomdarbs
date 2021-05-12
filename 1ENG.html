@@ -6,31 +6,34 @@
 
 	<title>pirmais Eng</title>
 </head>
-<body>
+<body id="port" class="parallax-viewport">
 
 <div class="fons">
 
-<!-- te ir puķu bildes sākumā -->
 
-<img class="puke1" src="./images/pukesSolo/sakumapukearpumpuru.png">
 
-<img class="puke2" src="./images/pukesSolo/sakumapuke1.png">
+	<!-- te ir puķu bildes sākumā -->
 
-<img class="puke4" src="./images/pukesSolo/videjaisasns.png">
+	<img class="puke1 parallax-layer" src="./images/pukesSolo/sakumapukearpumpuru.png">
 
-<img class="puke5" src="./images/pukesSolo/mazaisasns.png">
+	<img class="puke2 parallax-layer" src="./images/pukesSolo/sakumapuke1.png">
 
-<img class="puke3" src="./images/pukesSolo/tornisarlapam.png">
+	<img class="puke4 parallax-layer" src="./images/pukesSolo/videjaisasns.png">
 
-<img class="puke1right" src="./images/pukesSolo/sakumapukearpumpuru.png">
+	<img class="puke5 parallax-layer" src="./images/pukesSolo/mazaisasns.png">
 
-<img class="puke2right" src="./images/pukesSolo/sakumapuke1.png">
+	<img class="puke3 parallax-layer" src="./images/pukesSolo/tornisarlapam.png">
 
-<img class="puke4right" src="./images/pukesSolo/videjaisasns.png">
+	<img class="puke1right parallax-layer" src="./images/pukesSolo/sakumapukearpumpuru.png">
 
-<img class="puke5right" src="./images/pukesSolo/mazaisasns.png">
+	<img class="puke2right parallax-layer" src="./images/pukesSolo/sakumapuke1.png">
 
-<img class="puke3right" src="./images/pukesSolo/tornisarlapam.png">
+	<img class="puke4right parallax-layer" src="./images/pukesSolo/videjaisasns.png">
+
+	<img class="puke5right parallax-layer" src="./images/pukesSolo/mazaisasns.png">
+
+	<img class="puke3right parallax-layer" src="./images/pukesSolo/tornisarlapam.png">
+
 
 
 </div>
@@ -64,6 +67,19 @@
  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
   <script src="./scripts/typewriter.js"></script>
+
+  <script src="./scripts/jquery.parallax.js"></script>
+
+  	<script type="text/javascript">
+	
+		jQuery(document).ready(function(){
+			// Declare parallax on layers
+			jQuery('.parallax-layer').parallax({
+				mouseport: jQuery("#port")
+				
+			});
+		});
+	</script>
 
  <script src="./scripts/1.js"></script>
 
