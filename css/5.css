@@ -52,3 +52,22 @@ color: #EC045C;
     width: 100%;
     height: 100%;
 }
+
+.parallax-viewport {
+    position: fixed;    
+    overflow: hidden; 
+    width: 100%;
+    height: 30%; 
+    bottom: 0%;
+}
+.parallax-layer {
+    position: absolute;
+}
+
+.mantas {
+    position: absolute;
+  max-width: 100%;
+  height: auto;
+  bottom: -80%;
+  left: -1%;
+}
