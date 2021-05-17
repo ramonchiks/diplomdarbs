@@ -5,34 +5,36 @@ $(document).ready(function(){
 		writethis("And the more I gave, \n the more I got back", ".story")
 
 	$(".story").click(function(){
-		writethis("I put my diary online", ".story")
+		writethis("I put my diary \n online", ".story")
 
 	$(".story").click(function(){
-		writethis("and people listened in return", ".story")
+		writethis("and people listened \n in return", ".story")
 		$("#mantas, #mantas1, #mantas2, #mantas3, #mantas4, #mantas5, #mantas6, #mantas7").removeClass("transparent")
 		$("#mantas, #mantas1, #mantas2, #mantas3, #mantas4, #mantas5, #mantas6, #mantas7").addClass("visible")
 
 	$(".story").click(function(){
-		writethis("Over time, it got to a point", ".story")
+		writethis("Over time, \n it got to a point", ".story")
 
 	$(".story").click(function(){
-		writethis("where hundreds, sometimes even \nthousands of people", ".story")
+		writethis("where hundreds, \n sometimes even thousands \n of people", ".story")
 
 	$(".story").click(function(){
-		writethis("would read my diary every day", ".story")
+		writethis("would read my diary \n every day", ".story")
 
 	$(".story").click(function(){
-		writethis("and give me attention and reassurance", ".story")
+		writethis("and give me attention \n and reassurance", ".story")
 	$(".story").click(function(){
-		writethis("like a great, shapeless mass of support", ".story")
+		writethis("like a great, shapeless \n mass of support", ".story")
 	$(".story").click(function(){
-		writethis("that never challenged me", ".story")
+		writethis("that never \n challenged me", ".story")
 
 	$(".story").click(function(){
 		writethis("a pseudo-social relationship like that \n is awfully comfortable", ".story")
 
+
 	$(".story").click(function(){
-		writethis("it is missing everything \n that makes interactions in real life \n difficult", ".story")
+		$(".story").css("display", "none")
+		writethis("it is missing everything \n that makes interactions in real life \n difficult", ".story2")
 
 	})	
 

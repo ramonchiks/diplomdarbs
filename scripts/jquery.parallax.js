@@ -16,8 +16,8 @@
 	    	mouseport:     'body',  // jQuery object or selector of DOM node to use as mouseport
 	    	xparallax:     0.2,    // boolean | 0-1 | 'npx' | 'n%'
 	    	yparallax:     0.3,    //
-	    	xorigin:       0.5,     // 0-1 - Sets default alignment. Only has effect when parallax values are something other than 1 (or true, or '100%')
-	    	yorigin:       0.56,     //
+	    	xorigin:       1,     // 0-1 - Sets default alignment. Only has effect when parallax values are something other than 1 (or true, or '100%')
+	    	yorigin:       1,     //
 	    	decay:         0.99,    // 0-1 (0 instant, 1 forever) - Sets rate of decay curve for catching up with target mouse position
 	    	frameDuration: 30,      // Int (milliseconds)
 	    	freezeClass:   'freeze' // String - Class added to layer when frozen

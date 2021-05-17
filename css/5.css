@@ -36,6 +36,16 @@ html, body {
   max-width: 80%;
 }
 
+.story2 {
+    height: 10%;
+    display: block;
+  font-size: 5vw;
+  margin-top: 15%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+}
+
 .new-line {
   white-space: pre-line;
 }
@@ -72,10 +82,10 @@ color: #f1d2cf;
 
 .mantas {
     position: absolute;
-  max-width: 200%;
+  max-width: 250%;
   height: auto;
   bottom: -17%;
-  left: -25%;
+  left: 15%; 
 }
 
 .augsakreisais {
