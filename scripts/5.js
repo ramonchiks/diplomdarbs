@@ -9,8 +9,8 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("and people listened in return", ".story")
-		$("#mantas, #mantas1, #mantas2, #mantas3").removeClass("transparent")
-		$("#mantas, #mantas1, #mantas2, #mantas3").addClass("visible")
+		$("#mantas, #mantas1, #mantas2, #mantas3, #mantas4, #mantas5, #mantas6, #mantas7").removeClass("transparent")
+		$("#mantas, #mantas1, #mantas2, #mantas3, #mantas4, #mantas5, #mantas6, #mantas7").addClass("visible")
 
 	$(".story").click(function(){
 		writethis("Over time, it got to a point", ".story")
