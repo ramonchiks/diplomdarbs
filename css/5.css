@@ -23,7 +23,7 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
-        color: #f8f8f8;
+        color: #f1d2cf;
 }
 
 .story {
@@ -42,7 +42,7 @@ html, body {
 
 a {
 text-decoration: none;
-color: #EC045C;
+color: #f1d2cf;
 }
 
 /*Te iet noformējuma lietas*/
@@ -53,11 +53,17 @@ color: #EC045C;
     height: 100%;
 }
 
+.fons2 {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .parallax-viewport {
     position: fixed;    
     overflow: hidden; 
     width: 100%;
-    height: 30%; 
+    height: 100%; 
     bottom: 0%;
 }
 .parallax-layer {
@@ -66,8 +72,58 @@ color: #EC045C;
 
 .mantas {
     position: absolute;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
-  bottom: -80%;
-  left: -1%;
+  bottom: -17%;
+  left: -25%;
+}
+
+.augsakreisais {
+  max-width: 35%;
+  position: absolute;
+  left: -5%;
+  top: -7%;
+}
+
+.augsalabais {
+  max-width: 50%;
+  position: absolute;
+  left: 55%;
+  top: -5%;
+}
+
+.apaksakreisais {
+  max-width: 25%;
+  position: absolute;
+  left: -5%;
+  bottom: -5%;
+}
+
+.apaksalabais {
+  max-width: 20%;
+  position: absolute;
+  left: 81%;
+  bottom: -3%;
+}
+
+.zirneklistikla{
+  max-width: 25%;
+}
+
+.transparent{
+  opacity:0;
+      -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+
+}
+
+.visible{
+      -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+  opacity:1;
+
 }
