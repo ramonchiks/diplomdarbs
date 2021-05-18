@@ -61,7 +61,9 @@ $(document).ready(function(){
 		writethis("I really was left quite alone", ".story")
 
 	$(".story").click(function(){
-		writethis("at least with the problems \n I found difficult to talk about", ".story")
+		$(".story").css("display", "none")
+		$(".story2").css("display", "block")
+		writethis("at least with the problems \n I found difficult to talk about", ".story2")
 
 	})
 
