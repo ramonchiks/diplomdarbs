@@ -61,6 +61,10 @@ color: #FFD4DB;
   position: absolute;
   left: 35%;
 }
+.img{
+  max-width: 50%;
+  height: auto; 
+}
 
 .transparent{
   opacity:0;
