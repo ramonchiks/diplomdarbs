@@ -68,6 +68,12 @@ color: #FFD4DB;
   -moz-transition: opacity 1.5s ease-in-out;
   -o-transition: opacity 1.5s ease-in-out;
   transition: opacity 1.5s ease-in-out;
+    max-width: 50%;
+  height: auto;
+  top: 20%;
+  display: block;
+  position: absolute;
+  left: 35%;
 
 }
 
@@ -77,6 +83,12 @@ color: #FFD4DB;
   -o-transition: opacity 1.5s ease-in-out;
   transition: opacity 1.5s ease-in-out;
   opacity:1;
+    max-width: 50%;
+  height: auto;
+  top: 20%;
+  display: block;
+  position: absolute;
+  left: 35%;
 
 }
 
