@@ -66,8 +66,8 @@ color: #EC045C;
 
 .dators{
   position: absolute;
-  max-height: 100%;
-  width: auto;
+  max-width: : 100%;
+  height: auto;
   bottom: -5%;
   left: 35%;
 }
