@@ -41,6 +41,8 @@ $(document).ready(function(){
 		writethis("or at least it does \n when you're thirteen", ".story")
 
 	$(".story").click(function(){
+		$(".fons").css("background-color", "#151512")
+		$(".story").css("color", "#FFFFFF")
 		$(".dzeks5").css("max-height", "40%")
 		$(".dzeks5").css("left", "42%")
 		writethis("The following isolation \n and failure to deal \n with real human issues", ".story")
