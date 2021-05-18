@@ -34,6 +34,7 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		$(".story").css("display", "none")
+		$(".story2").css("display", "block")
 		writethis("it is missing everything \n that makes interactions in real life \n difficult", ".story2")
 
 	})	
