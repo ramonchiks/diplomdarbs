@@ -22,7 +22,7 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
-        color: #78FF78;
+        color: #183527;
 }
 
 .story {
@@ -33,6 +33,7 @@ html, body {
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
+  color: #183527;
 }
 
 .story2 {
@@ -44,20 +45,8 @@ html, body {
   margin-right: 10%; 
   max-width: 80%;
   display: none;
-  color: #FFFFFF;
 }
 
-.story3 {
-    height: 10%;
-    display: block;
-  font-size: 5vw;
-  margin-top: 15%;
-  margin-left:10%;
-  margin-right: 10%; 
-  max-width: 80%;
-  display: none;
-  color: #FFFFFF;
-}
 
 .new-line {
   white-space: pre-line;
@@ -74,25 +63,5 @@ color: #EC045C;
   position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #fadee9;
-}
-
-.dators{
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  bottom: -5%;
-  left: 3%;
-}
-
-.ieksa {
-  position: absolute;
-  bottom: 30%;
-  left: 30%;
-  display: none;
-
-}
-
-.ekrans {
-  position: absolute;
+    background-image: radial-gradient(circle, #e4bbbb, #e0bcaf, #d7bfa7, #c9c3a5, #b9c6a9);
 }

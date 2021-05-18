@@ -22,7 +22,7 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
-        color: #03140D;
+        color: #401746;
 }
 
 .story {
@@ -52,7 +52,7 @@ html, body {
 
 a {
 text-decoration: none;
-color: #03140D;
+color: #401746;
 }
 
 /*Te iet noformējuma lietas*/
@@ -61,6 +61,7 @@ color: #03140D;
   position: absolute;
     width: 100%;
     height: 100%;
+    background-color: #A38DCE;
 }
 
 .dzeks1 {
