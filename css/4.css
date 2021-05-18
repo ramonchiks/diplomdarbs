@@ -54,12 +54,12 @@ color: #FFD4DB;
 }
 
 .pukeaug {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  margin-top: 10%;
+  top: 20%;
   display: block;
   position: absolute;
-  margin-left: 35%;
+  left: 35%;
 }
 
 .transparent{
