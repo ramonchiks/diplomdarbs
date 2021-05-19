@@ -54,63 +54,44 @@ color: #FFD4DB;
 }
 
 .pukeaug {
-  max-width: 50%;
-  height: auto;
-  top: 20%;
-  display: block;
+  max-height: 50%;
+  width: auto;
+  bottom: 26%;
   position: absolute;
   left: 35%;
 }
 
-.img{
-  max-width: 50%;
-  height: auto; 
-}
 
 .transparent{
   opacity:0;
-      -webkit-transition: opacity 1.5s ease-in-out;
-  -moz-transition: opacity 1.5s ease-in-out;
-  -o-transition: opacity 1.5s ease-in-out;
-  transition: opacity 1.5s ease-in-out;
-    max-width: 50%;
-  height: auto;
-  top: 20%;
-  display: block;
-  position: absolute;
-  left: 35%;
-
+      -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
 }
 
 .visible{
-      -webkit-transition: opacity 1.5s ease-in-out;
-  -moz-transition: opacity 1.5s ease-in-out;
-  -o-transition: opacity 1.5s ease-in-out;
-  transition: opacity 1.5s ease-in-out;
+      -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
   opacity:1;
-    max-width: 50%;
-  height: auto;
-  top: 20%;
-  display: block;
-  position: absolute;
-  left: 35%;
-
 }
 
 .transparent2{
   opacity:0;
-      -webkit-transition: opacity 3s ease-in-out;
-  -moz-transition: opacity 3s ease-in-out;
-  -o-transition: opacity 3s ease-in-out;
-  transition: opacity 3s ease-in-out;
+      -webkit-transition: opacity 3s ease-in;
+  -moz-transition: opacity 3s ease-in;
+  -o-transition: opacity 3s ease-in;
+  transition: opacity 3s ease-in;
 
 }
 
 .visible2{
-      -webkit-transition: opacity 3s ease-in-out;
-  -moz-transition: opacity 3s ease-in-out;
-  -o-transition: opacity 3s ease-in-out;
-  transition: opacity 3s ease-in-out;
+      -webkit-transition: opacity 3s ease-in;
+  -moz-transition: opacity 3s ease-in;
+  -o-transition: opacity 3s ease-in;
+  transition: opacity 3s ease-in;
   opacity:1;
 
 }
