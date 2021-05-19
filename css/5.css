@@ -169,7 +169,12 @@ color: #f1d2cf;
 }
 
 .zirneklistikla{
-  max-width: 25%;
+  max-width: 20%;
+  height: auto;
+  position: absolute;
+  left: 8%;
+  top: -150%;
+  transform-origin: 50% top;
 }
 
 .transparent{
@@ -187,5 +192,57 @@ color: #f1d2cf;
   -o-transition: opacity 1.5s ease-in-out;
   transition: opacity 1.5s ease-in-out;
   opacity:1;
+
+}
+
+.zirneklisnak {
+    animation-duration: 3s;
+  animation-name: zirneklisienak;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zirneklisienak {
+
+  from{
+    top:-150%;
+  }
+
+  70%{
+    top:-40%;
+  }
+
+  to{
+    top:-45%;
+  }
+
+
+}
+
+.zirnekliskustas{
+    animation-name: supojas;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out; /* AAAAA kaa lai dabū tā, lai loopojas skaisti? Jo vajag, lai sākas no vidus, bet līdz šim neviens izmēģinātais smalkais cubic-bezier variants nestrādā - strādātu, ja sāktos no sāna, bet man tas neder, i need an xxtra bump on that stupid curve!!!! */
+    top:-45%;
+}
+
+@keyframes supojas {
+
+  from{
+    transform: rotate(0deg);
+  }
+
+  25%{
+    transform: rotate(7deg);
+  }
+
+  75%{
+    transform: rotate(-7deg);
+  }
+
+  to{
+    transform: rotate(0deg);
+  }
 
 }

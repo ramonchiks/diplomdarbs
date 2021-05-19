@@ -1,8 +1,11 @@
 $(document).ready(function(){
+	//$(".zirneklistikla").addClass("zirnekliskustas")
 	writethis("It is hard to describe \n how much I trusted the internet", ".story")
 
 	$(".story").click(function(){
 		writethis("And the more I gave, \n the more I got back", ".story")
+		$(".zirneklistikla").removeClass("zirneklisnak")
+		$(".zirneklistikla").addClass("zirnekliskustas")
 
 	$(".story").click(function(){
 		writethis("I put my diary \n online", ".story")
