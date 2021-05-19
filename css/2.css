@@ -95,6 +95,15 @@ img {
 
 }
 
+.uzaugsu {
+  transform: translateY(-45%);
+        -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  -o-transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+
+}
+
 .temp {
   width: 60%;
   height: 40%;

@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$(".temp").click(function(){
 	$(".story").css("display", "block")
 	writethis("Thirteen is just a \n generally horrible age to be", ".story")
-	$(".acis").css("margin-top", "7%")
+	$(".acis").addClass("uzaugsu")
 	$(".temp").css("display", "none")
 
 

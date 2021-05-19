@@ -116,7 +116,6 @@ color: #401746;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-
 }
 
 .visible{
@@ -125,5 +124,21 @@ color: #401746;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
   opacity:1;
+}
 
+.mazaks{
+  transform: scale(0.7) translateY(20%);
+
+   -webkit-transition: transform 3s ease-out;
+  -moz-transition: transform 3s ease-out;
+  -o-transition: transform 3s ease-out;
+  transition: transform 3s ease-out;
+}
+
+.uzleju {
+    transform: translateY(20.3%) scale(0.7);
+        -webkit-transition: transform 3s ease-out;
+  -moz-transition: transform 3s ease-out;
+  -o-transition: transform 3s ease-out;
+  transition: transform 3s ease-out;
 }

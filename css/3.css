@@ -53,7 +53,7 @@ html, body {
 
 a {
 text-decoration: none;
-color: #EC045C;
+color: #03140D;
 }
 
 /*Te iet noformējuma lietas*/
@@ -275,3 +275,39 @@ color: #EC045C;
 .atvertasdurvis{
   display: none;
 } */
+
+.majalielaka{
+  transform: scale(1.5) translateY(-29%);
+         -webkit-transition: transform 0.7s ease-out;
+  -moz-transition: transform 0.7s ease-out;
+  -o-transition: transform 0.7s ease-out;
+  transition: transform 0.7s ease-out;
+}
+
+.majalielaka2{
+    transform: scale(3.2) translateY(-70%);
+         -webkit-transition: transform 0.7s ease-out;
+  -moz-transition: transform 0.7s ease-out;
+  -o-transition: transform 0.7s ease-out;
+  transition: transform 0.7s ease-out;
+}
+
+.testzvaigznes{
+  transform: scale(1.5);
+   -webkit-transition: transform 0.7s ease-out;
+  -moz-transition: transform 0.7s ease-out;
+  -o-transition: transform 0.7s ease-out;
+  transition: transform 0.7s ease-out;
+}
+
+.testzvaigznes2{
+  transform: scale(1.7);
+   -webkit-transition: transform 0.7s ease-out;
+  -moz-transition: transform 0.7s ease-out;
+  -o-transition: transform 0.7s ease-out;
+  transition: transform 0.7s ease-out;
+}
+
+
+.links{
+}

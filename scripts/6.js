@@ -43,11 +43,11 @@ $(document).ready(function(){
 	$(".story").click(function(){
 		$(".fons").css("background-color", "#151512")
 		$(".story").css("color", "#FFFFFF")
-		$(".dzeks5").css("max-height", "40%")
-		$(".dzeks5").css("left", "42%")
+		$(".dzeks5").addClass("mazaks")
 		writethis("The following isolation \n and failure to deal \n with real human issues", ".story")
 
 	$(".story").click(function(){
+		$(".dzeks5").addClass("uzleju")
 		writethis("only pulls you deeper \n in the bog", ".story")
 
 	$(".story").click(function(){

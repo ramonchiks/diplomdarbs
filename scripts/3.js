@@ -27,26 +27,27 @@ $(document).ready(function(){
 		$(".majaslogi").css("fill", "#03140d")
 
 	$(".fons").click(function(){
-		$(".maaja").css("width", "30%")
-		$(".maaja").css("height", "40%")
-		$(".maaja").css("margin-left", "35%")
-		$(".maaja").css("bottom", "20%")
-		$(".sparkle, .sparkleatrak").css("display", "none")
+		$(".maaja").addClass("majalielaka")
+		$(".sparkle1, .sparkle2, .sparkle3, sparkle4, .sparkle5, .sparkle6, .sparkle7, .sparkle1blakus, .sparkle2blakus, .sparkle3blakus, .sparkle4blakus, .sparkle5blakus, .sparkle6blakus, .sparkle3blakusvelreiz, .sparkle4blakusvelreiz, .sparkle6blakusvelreiz").addClass("testzvaigznes")
+		//$(".sparkle, .sparkleatrak").css("display", "none")
 
 	$(".fons").click(function(){
-		$(".maaja").css("width", "50%")
-		$(".maaja").css("height", "65%")
-		$(".maaja").css("margin-left", "25%")
-		$(".maaja").css("bottom", "30%")
+		$(".maaja").addClass("majalielaka2")
+		$(".sparkle1, .sparkle2, .sparkle3, sparkle4, .sparkle5, .sparkle6, .sparkle7, .sparkle1blakus, .sparkle2blakus, .sparkle3blakus, .sparkle4blakus, .sparkle5blakus, .sparkle6blakus, .sparkle3blakusvelreiz, .sparkle4blakusvelreiz, .sparkle6blakusvelreiz").addClass("testzvaigznes2")
 
 	$(".fons").click(function(){
 		//$(".apalaisrokturis").css("display", "block")
 		$(".apalaisrokturis").css("fill", "#03140D")
 
 	$(".apalaisrokturis").click(function(){
-		$(".apalaisrokturis").css("fill", "#f7dce6")
+		$(".apalaisrokturis").css("display", "none")
 		$(".ovalaisrokturis").css("fill", "#03140D")
 		$(".atvertasdurvis").css("fill", "#03140D")
+			$(".atvertasdurvis").each(function() {
+  			var link = $(this).html();
+ 			 $(this).contents().wrap('<a href="./4ENG.html"></a>');
+			});
+		//$(".atvertasdurvis").addClass("links") (nestrādā tā)
 		//$(".atvertasdurvis").attr("href", moshtevarkkaaielikturl)
 //naakamais ir temporary
 
