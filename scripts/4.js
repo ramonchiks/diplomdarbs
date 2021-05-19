@@ -23,7 +23,7 @@ $(document).ready(function(){
 		$("#divi").addClass("visible2")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "8%")
+		$(".story").css("margin-top", "10%")
 		writethis("my reality \n quickly became focused \n on crafting an image of myself ", ".story")
 		$("#divi").removeClass("visible2")
 		$("#divi").addClass("transparent2")
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("for people I didn't know \n to look at", ".story")
-		$(".story").css("margin-top", "6%")
+		$(".story").css("margin-top", "8%")
 		$("#tris").removeClass("visible2")
 		$("#tris").addClass("transparent2")
 		$("#cetri").removeClass("transparent2")
@@ -40,14 +40,14 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("Every word I said \n and every picture I posted", ".story")
-		$(".story").css("margin-top", "1.2%")
+		$(".story").css("margin-top", "4%")
 		$("#cetri").removeClass("visible2")
 		$("#cetri").addClass("transparent2")
 		$("#pieci").removeClass("transparent2")
 		$("#pieci").addClass("visible2")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "1.2%")
+		$(".story").css("margin-top", "4%")
 		writethis("was to build towards a weird \n romanticised version of myself", ".story")
 		$("#pieci").removeClass("visible2")
 		$("#pieci").addClass("transparent2")
