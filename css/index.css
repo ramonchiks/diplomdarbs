@@ -32,16 +32,32 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
-        color: #EC045C;
+ 
 }
+
+.lv {
+    font-size: 10vw;
+    mix-blend-mode: screen;
+    color: #EC045C;
+    display: inline-block;
+}
+
+
+.eng {
+    font-size: 10vw;
+    mix-blend-mode: screen;
+    color: #EC045C;
+    display: inline-block;
+}
+
+/* JA uzliek mix blend mode FONAM, sanāk cloud effect omg omg omg */ 
 
 .fons {
   position: absolute;
     width: 100%;
     height: 100%;
     animation: colors 10s infinite;
-    animation-direction: alternate-reverse; 
-    text-align: center;  
+    animation-direction: alternate-reverse;   
 } 
 
 @keyframes colors {
@@ -58,6 +74,7 @@ html, body {
     text-align: center;
     animation: pozicija 8s infinite;
         animation-direction: alternate; 
+
 }
 
 @keyframes pozicija {
