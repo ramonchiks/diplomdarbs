@@ -33,6 +33,7 @@ html, body {
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
+  cursor: pointer;
 }
 
 .story2 {
@@ -44,6 +45,7 @@ html, body {
   margin-right: 10%; 
   max-width: 80%;
   display: none;
+  cursor: pointer;
 }
 
 .new-line {

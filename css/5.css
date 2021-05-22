@@ -34,6 +34,9 @@ html, body {
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
 }
 
 .story2 {
@@ -44,6 +47,9 @@ html, body {
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2
 }
 
 .new-line {
@@ -175,6 +181,7 @@ color: #f1d2cf;
   left: 8%;
   top: -150%;
   transform-origin: 50% top;
+  z-index: 1;
 }
 
 .transparent{
@@ -218,31 +225,42 @@ color: #f1d2cf;
 
 }
 
-.zirnekliskustas{
+.zirneklisiesupojas{
+    animation-name: iesupojas;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    top:-45%;
+}
+
+@keyframes iesupojas {
+  from{
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(7deg);
+  }
+}
+
+.zirneklissupojas{
     animation-name: supojas;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-iteration-count:infinite;
     animation-fill-mode: forwards;
-      animation-timing-function: ease-in-out; /* AAAAA kaa lai dabū tā, lai loopojas skaisti? Jo vajag, lai sākas no vidus, bet līdz šim neviens izmēģinātais smalkais cubic-bezier variants nestrādā - strādātu, ja sāktos no sāna, bet man tas neder, i need an xxtra bump on that stupid curve!!!! */
+      animation-timing-function: ease-in-out; 
     top:-45%;
+    animation-direction: alternate;
 }
 
 @keyframes supojas {
 
   from{
-    transform: rotate(0deg);
-  }
-
-  25%{
     transform: rotate(7deg);
   }
 
-  75%{
-    transform: rotate(-7deg);
-  }
-
   to{
-    transform: rotate(0deg);
+    transform: rotate(-7deg);
   }
 
 }

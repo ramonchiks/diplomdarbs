@@ -1,11 +1,19 @@
 $(document).ready(function(){
 	//$(".zirneklistikla").addClass("zirnekliskustas")
+	
+	setTimeout(function() {
 	writethis("It is hard to describe \n how much I trusted the internet", ".story")
+}, 3500)
+
 
 	$(".story").click(function(){
 		writethis("And the more I gave, \n the more I got back", ".story")
 		$(".zirneklistikla").removeClass("zirneklisnak")
-		$(".zirneklistikla").addClass("zirnekliskustas")
+		$(".zirneklistikla").addClass("zirneklisiesupojas")
+		setTimeout(function() {
+			$(".zirneklistikla").removeClass("zirneklisiesupojas")
+			$(".zirneklistikla").addClass("zirneklissupojas")
+		}, 2000)
 
 	$(".story").click(function(){
 		writethis("I put my diary \n online", ".story")

@@ -1,12 +1,14 @@
 $(document).ready(function(){
 
+setTimeout(function() {
 	writethis("After a lot of reflecting \n I have realised", ".story")
+}, 2000)
 
 	$(".story").click(function(){
 	writethis("that all this \n theatre", ".story")
 
 	$(".story").click(function(){
-		writethis("really was about gaining some control \n in a chaotic world", ".story")
+		writethis("really was about \n gaining some control \n in a chaotic world", ".story")
 
 	$(".story").click(function(){
 		writethis("it feels", ".story")
