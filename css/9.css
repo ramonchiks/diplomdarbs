@@ -70,8 +70,14 @@ color: #EC045C;
     z-index: 1;
 }
 
+.fons2{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
 .datoraansamblis{
-  background-color: white;
   position: absolute;
   margin-top: 30vh;
   height: 30vh;
@@ -83,7 +89,6 @@ color: #EC045C;
   position: absolute;
   width: 100%;
   height: 60%;
-  background-color: pink;
 }
 
 
@@ -141,6 +146,8 @@ color: #EC045C;
 
 .static {
  display: none;
+ position: absolute;
+ margin-left: -50%;
 }
 
 .tekstsdatora {
@@ -150,6 +157,11 @@ color: #EC045C;
   cursor: pointer;
 }
 
+.tikaiekrans {
+  transform: scale(1.3);
+  position: absolute;
+  margin-left: -50%;
+}
 
 #startagain {
  display: none;
@@ -194,4 +206,92 @@ color: #EC045C;
   -moz-transition: margin-top 2s ease-out;
   -o-transition: margin-top 2s ease-out;
   transition: margin-top 2s ease-out;
+}
+
+.paluur {
+     -webkit-transition: margin-top 0.3s ease-in;
+  -moz-transition: margin-top 0.3s ease-in;
+  -o-transition: margin-top 0.3s ease-in;
+  transition: margin-top 0.3s ease-in;
+}
+
+.izlienmantas {
+     -webkit-transition: margin-top 1.3s ease-out;
+  -moz-transition: margin-top 1.3s ease-out;
+  -o-transition: margin-top 1.3s ease-out;
+  transition: margin-top 1.3s ease-out;
+}
+
+/* te sākas mantas datorā */
+
+.mantasekrana{
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  margin-top: 50%;
+}
+
+.seja {
+  position: absolute;
+  margin-left: -47%;
+  margin-top: 80%;
+  transform: scale(1.1);
+}
+
+.sirds {
+  position: absolute;
+  margin-left: -30%;
+  margin-top: 55%;
+  max-height: 60%;
+  width: auto;
+}
+
+.zvaigzne {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 35%;
+  max-height: 70%;
+  width: auto;
+}
+.spilvens {
+  position: absolute;
+  margin-left: -65%;
+  margin-top: 40%;
+  max-height: 60%;
+  width: auto;
+}
+.zakis {
+  position: absolute;
+  margin-left: -20%;
+  margin-top: 53%;
+  max-height: 70%;
+  width: auto;
+}
+.zirneklis {
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 50%;
+  max-height: 70%;
+  width: auto;
+}
+.zivs {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 53%;
+  max-height: 40%;
+  width: auto;
+}
+.pile {
+  position: absolute;
+  margin-left: -50%;
+  margin-top: 55%;
+  max-height: 50%;
+  width: auto;
+}
+.chuska {
+  position: absolute;
+  margin-left: -60%;
+  margin-top: 30%;
+  max-height: 80%;
+  width: auto;
 }

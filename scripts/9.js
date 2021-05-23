@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-	$(".datorabilde").mouseover(function(){
+	$(".story").mouseover(function(){
 		$(".static").css("display", "inline-block")
 	})
 
-	$(".datorabilde").mouseleave(function(){
+	$(".story").mouseleave(function(){
 		$(".static").css("display", "none")
 	})
 
@@ -28,10 +28,16 @@ $(document).ready(function(){
 		writethis("and diverse", ".story")
 
 	$(".story").click(function(){
-		writethis("It definitely is creating \n new forms of communication", ".story")
+		setTimeout(function() {
+		$(".seja").css("margin-top", "11%")
+	}, 3000)
+		writethis("The internet has become \n a place to escape from the real world", ".story")
 
 	$(".story").click(function(){
-		writethis("becoming an escape \n from the real world", ".story")
+		setTimeout(function() {
+		$(".mantasekrana").css("margin-top", "7%")
+	}, 500)
+		writethis("it is creating \n new forms of communication", ".story")
 
 	$(".story").click(function(){
 		writethis("which is ultimately \n neither good nor bad", ".story")
