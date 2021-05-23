@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-	$(".story").mouseover(function(){
+	$(".dummy").mouseover(function(){
 		$(".static").css("display", "inline-block")
 	})
 
-	$(".story").mouseleave(function(){
+	$(".dummy").mouseleave(function(){
 		$(".static").css("display", "none")
 	})
 
@@ -18,6 +18,7 @@ $(document).ready(function(){
 	$(".story").click(function(){
 		$(".zaale").css("margin-top", "37%")
 		writethis("especially those of a \n younger generation", ".story")
+		$("#pile").css("opacity", "1")
 
 	$(".story").click(function(){
 		$(".orhidejas").css("margin-top", "23%")
@@ -48,6 +49,7 @@ $(document).ready(function(){
 		}, 2600)
 		setTimeout(function(){
 			$(".seja").css("display", "none")
+			$("#dzeks").css("opacity", "1")
 		}, 2900)
 		writethis("Regardless, \n it is important to pay attention", ".story")
 
