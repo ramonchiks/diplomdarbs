@@ -66,7 +66,6 @@ color: #EC045C;
     width: 100%;
     height: 100%;
     position: absolute;       
-    background-image: radial-gradient(circle, #e4bbbb, #e0bcaf, #d7bfa7, #c9c3a5, #b9c6a9);
     z-index: 1;
 }
 
@@ -75,6 +74,7 @@ color: #EC045C;
     height: 100%;
     position: absolute;
     z-index: -1;
+    background-image: radial-gradient(circle, #e4bbbb, #e0bcaf, #d7bfa7, #c9c3a5, #b9c6a9);
 }
 
 .datoraansamblis{
@@ -82,7 +82,7 @@ color: #EC045C;
   margin-top: 30vh;
   height: 30vh;
   width: 30vh;
-  margin-left: 45%;
+  margin-left: 42.5%;
 }
 
 .pukesuzdatora {
@@ -294,4 +294,46 @@ color: #EC045C;
   margin-top: 30%;
   max-height: 80%;
   width: auto;
+}
+
+/* te sākas dobju lietas */
+
+.visasdobes{
+  width: 100%;
+  position: absolute;
+  height: 70%;
+  margin-top: 50vh;
+}
+
+.kreisa {
+  display: inline-block;
+  width: 46%;
+  height: 100%;
+  float: left;
+  margin-right: 8%;
+}
+.laba {
+  display: inline-block;
+  width: 46%;
+  height: 100%;
+  float: left;
+}
+
+
+.dobekreisa{
+  max-width: 100%;
+}
+
+.dobelaba{
+  max-width: 100%;
+  margin-top: -3%;
+}
+
+.dobes{
+  max-height: 60%;
+  width: auto;
+  position: absolute;
+  left: 10%;
+  margin-top: 10%;
+
 }
