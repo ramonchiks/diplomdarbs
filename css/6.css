@@ -138,6 +138,7 @@ color: #401746;
 }
 
 .uzleju {
+
     transform: translateY(20.3%) scale(0.7);
         -webkit-transition: transform 3s ease-out;
   -moz-transition: transform 3s ease-out;

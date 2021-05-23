@@ -23,13 +23,14 @@ html, body {
     height: 100%;
     text-align: center;
         color: #183527;
+        z-index: 2;
 }
 
 .story {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
@@ -62,8 +63,135 @@ color: #EC045C;
 /*Te iet noformējuma lietas*/
 
 .fons {
-  position: absolute;
     width: 100%;
     height: 100%;
+    position: absolute;       
     background-image: radial-gradient(circle, #e4bbbb, #e0bcaf, #d7bfa7, #c9c3a5, #b9c6a9);
+    z-index: 1;
+}
+
+.datoraansamblis{
+  background-color: white;
+  position: absolute;
+  margin-top: 30vh;
+  height: 30vh;
+  width: 30vh;
+  margin-left: 45%;
+}
+
+.pukesuzdatora {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  background-color: pink;
+}
+
+
+.telekaste{
+  position: absolute;
+  height: 20vh;
+  width: 20vh;
+  margin-left: 17%;
+  margin-top: 50%;
+
+}
+
+.datorabilde{
+    position: absolute;
+    z-index: 1;
+  }
+
+.datorabilde img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.telekaste img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.monitors{
+ position: relative;
+}
+
+.ekransteksts {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  font-size: calc(2vw + 3vh);
+  z-index: 2;
+}
+
+
+.ekrans {
+  position: absolute;
+  top: 19%;
+  left: 14%;
+  right: 18%;
+  bottom: 30%;
+  background-color: #25B4C8;
+  display: block;
+
+}
+
+.static {
+ display: none;
+}
+
+.tekstsdatora {
+    display: block; 
+  max-width: 80%;
+  color: #78FF78;
+  cursor: pointer;
+}
+
+
+#startagain {
+ display: none;
+}
+
+/* te sākas puķes uz datora */
+
+.puke1{
+  position: absolute;
+  margin-top: 70%;
+  max-height: 80%;
+  width: auto;
+  margin-left: -17%;
+}
+
+.zaale{
+  position: absolute;
+  margin-top: 52%;
+  max-height: 34%;
+  width: auto;
+  margin-left: -23%;
+}
+
+.orhidejas{
+  position: absolute;
+  margin-top: 60%;
+  max-height: 65%;
+  width: auto;
+  margin-left: -19%;
+}
+
+.asnini{
+  position: absolute;
+  margin-top: 54%;
+  max-height: 22%;
+  width: auto;
+  margin-left: -28%;
+}
+
+.izlien {
+     -webkit-transition: margin-top 2s ease-out;
+  -moz-transition: margin-top 2s ease-out;
+  -o-transition: margin-top 2s ease-out;
+  transition: margin-top 2s ease-out;
 }

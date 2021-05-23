@@ -1,13 +1,30 @@
 $(document).ready(function(){
+
+	$(".datorabilde").mouseover(function(){
+		$(".static").css("display", "inline-block")
+	})
+
+	$(".datorabilde").mouseleave(function(){
+		$(".static").css("display", "none")
+	})
+
+	$(".puke1").css("margin-top", "17%")
+
+	setTimeout(function() {
 	writethis("The nature of the increasingly online \n lives led by many people", ".story")
+}, 2000)
+
 
 	$(".story").click(function(){
+		$(".zaale").css("margin-top", "37%")
 		writethis("especially those of a \n younger generation", ".story")
 
 	$(".story").click(function(){
+		$(".orhidejas").css("margin-top", "23%")
 		writethis("is very interesting", ".story")
 
 	$(".story").click(function(){
+		$(".asnini").css("margin-top", "42%")
 		writethis("and diverse", ".story")
 
 	$(".story").click(function(){
