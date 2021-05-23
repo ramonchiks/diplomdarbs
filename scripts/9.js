@@ -43,6 +43,12 @@ $(document).ready(function(){
 		writethis("which is ultimately \n neither good nor bad", ".story")
 
 	$(".story").click(function(){
+		setTimeout(function(){
+			$(".seja").css("margin-top", "80%")
+		}, 2600)
+		setTimeout(function(){
+			$(".seja").css("display", "none")
+		}, 2900)
 		writethis("Regardless, \n it is important to pay attention", ".story")
 
 	$(".story").click(function(){
@@ -58,8 +64,8 @@ $(document).ready(function(){
 		writethis("I wonder what yours is", ".story")
 
 	$(".story").click(function(){
-		$(".fons").css("background-image", "none")
-		$(".fons").css("background-color", "#B9C6A9")
+		$(".fons2").css("background-image", "none")
+		$(".fons2").css("background-color", "#B9C6A9")
 		writethis("THANK YOU FOR LISTENING", ".story")
 
 	$(".story").click(function(){

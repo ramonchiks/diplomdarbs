@@ -77,6 +77,12 @@ color: #EC045C;
     background-image: radial-gradient(circle, #e4bbbb, #e0bcaf, #d7bfa7, #c9c3a5, #b9c6a9);
 }
 
+.fons3{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 .datoraansamblis{
   position: absolute;
   margin-top: 30vh;
@@ -329,11 +335,75 @@ color: #EC045C;
   margin-top: -3%;
 }
 
-.dobes{
-  max-height: 60%;
-  width: auto;
-  position: absolute;
-  left: 10%;
-  margin-top: 10%;
+/* te sākas mantas uz zemes */
 
+.mantaszeme{
+  height: 30vh;
+  width: 60%;
+  margin-left: 20%;
+  bottom: 0%;
+  position: absolute;
+}
+
+#spilvens{
+  max-height: 16vh;
+  position: absolute;
+  bottom: -10%;
+  left: 0%;
+}
+
+#pile {
+  max-height: 15vh;
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+}
+
+#sirds{
+  max-height: 12vh;
+  position: absolute;
+  bottom: 1%;
+  left: 24%;
+}
+
+#dzeks{
+  max-height: 22vh;
+  position: absolute;
+  bottom: -15%;
+  left: 30%;
+}
+
+#zivs{
+  max-height: 4vw;
+  position: absolute;
+  bottom: 28%;
+  left: 49%;
+}
+
+#zirneklis {
+  max-height: 20vh;
+  position: absolute;
+  bottom: -6%;
+  left: 45%;
+}
+
+#chuska{
+  max-height: 24vh;
+  position: absolute;
+  bottom: -14%;
+  left: 63%;
+}
+
+#zakis{
+  max-height: 15vh;
+  position: absolute;
+  bottom: -9%;
+  left: 79%;
+}
+
+#zvaigzne{
+  max-height: 15vh;
+  position: absolute;
+  bottom: 11%;
+  left: 93%;
 }
