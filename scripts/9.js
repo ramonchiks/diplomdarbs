@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-	$(".dummy").mouseover(function(){
+	$(".dummy, .dummy2").mouseover(function(){
 		$(".static").css("display", "inline-block")
 	})
 
-	$(".dummy").mouseleave(function(){
+	$(".dummy, .dummy2").mouseleave(function(){
 		$(".static").css("display", "none")
 	})
 
@@ -14,11 +14,11 @@ $(document).ready(function(){
 	writethis("The nature of the increasingly online \n lives led by many people", ".story")
 }, 2000)
 
+	
 
 	$(".story").click(function(){
 		$(".zaale").css("margin-top", "37%")
 		writethis("especially those of a \n younger generation", ".story")
-		$("#pile").css("opacity", "1")
 
 	$(".story").click(function(){
 		$(".orhidejas").css("margin-top", "23%")
@@ -55,6 +55,64 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("to how the internet \n shapes and changes us", ".story")
+		//te notiek visas POP animācijas
+
+		setTimeout(function(){
+			$(".zakis").css("display", "none")
+		}, 2500)
+		setTimeout(function(){
+			$("#zakis").css("opacity", "1")
+		}, 2550)
+
+		setTimeout(function(){
+			$(".pile").css("display", "none")
+		}, 2650)
+		setTimeout(function(){
+			$("#pile").css("opacity", "1")
+		}, 2700)
+
+		setTimeout(function(){
+			$(".chuska").css("display", "none")
+		}, 2800)
+		setTimeout(function(){
+			$("#chuska").css("opacity", "1")
+		}, 2850)
+
+		setTimeout(function(){
+			$(".spilvens").css("display", "none")
+		}, 2950)
+		setTimeout(function(){
+			$("#spilvens").css("opacity", "1")
+		}, 3000)
+
+		setTimeout(function(){
+			$(".zivs").css("display", "none")
+		}, 3100)
+		setTimeout(function(){
+			$("#zivs").css("opacity", "1")
+		}, 3150)
+
+		setTimeout(function(){
+			$(".zvaigzne").css("display", "none")
+		}, 3250)
+		setTimeout(function(){
+			$("#zvaigzne").css("opacity", "1")
+		}, 3300)
+
+		setTimeout(function(){
+			$(".sirds").css("display", "none")
+		}, 3400)
+		setTimeout(function(){
+			$("#sirds").css("opacity", "1")
+		}, 3450)
+
+		setTimeout(function(){
+			$(".zirneklis").css("display", "none")
+		}, 3550)
+		setTimeout(function(){
+			$("#zirneklis").css("opacity", "1")
+		}, 3600)
+
 
 	$(".story").click(function(){
 		writethis("The whole scope of this is way larger \n than I could ever grasp in a single work", ".story")
@@ -74,6 +132,12 @@ $(document).ready(function(){
 		$(".story").css("color", "#FFFFFF")
 		$(".story").css("font-size", "7vw")
 		writethis("Now go outside!", ".story")
+
+		setTimeout(function(){
+		$(".nojauna").css("display", "inline-block")
+		$(".dummy2").css("display", "block")
+	}, 1500)
+
 	})
 
 	})

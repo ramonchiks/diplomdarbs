@@ -343,7 +343,6 @@ color: #EC045C;
   margin-left: 20%;
   bottom: 0%;
   position: absolute;
-  opacity: 0;
 }
 
 #spilvens{
@@ -428,11 +427,20 @@ color: #EC045C;
   margin-top: 26vh;
 }
 
+.dummy2{
+    position: absolute;
+  height: 10vh;
+  width: 16vh;
+  margin-left: 45.8vw;
+  margin-top: 30vh;
+  display: none;
+}
+
 .fadeDzeks{
-  -webkit-transition: opacity 1s ease-in;
-  -moz-transition: opacity 1s ease-in;
-  -o-transition: opacity 1s ease-in;
-  transition: opacity 1s ease-in;
+  -webkit-transition: opacity 0.1s ease-in;
+  -moz-transition: opacity 0.1s ease-in;
+  -o-transition: opacity 0.1s ease-in;
+  transition: opacity 0.1s ease-in;
 }
 
 .POP{
@@ -440,4 +448,12 @@ color: #EC045C;
   -moz-transition: opacity 0.1s ease-in;
   -o-transition: opacity 0.1s ease-in;
   transition: opacity 0.1s ease-in;
+}
+
+.nojauna {
+   position: absolute;
+ margin-left: -50%;
+ margin-top: 7%;
+ transform: scale(0.9);
+ display: none;
 }
