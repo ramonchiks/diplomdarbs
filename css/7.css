@@ -22,14 +22,14 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
-        color: #fec6c9;
+        color: #d79dda;
 }
 
 .story {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 15%;
+  margin-top: 20vh;
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
@@ -40,7 +40,7 @@ html, body {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 15%;
+  margin-top: 20vh;
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
@@ -54,7 +54,7 @@ html, body {
 
 a {
 text-decoration: none;
-color: #fec6c9;
+color: #d79dda;
 }
 
 /*Te iet noformējuma lietas*/
@@ -63,7 +63,22 @@ color: #fec6c9;
   position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #140505;
+}
+
+.fons2 {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.lellesContainer{
+  position: absolute;
+  width: 100%;
+  height: 55vh;
+  bottom: 0;
+  border-color: white;
+  border-style: dotted;
 }
 
 .augsa {
@@ -78,7 +93,7 @@ color: #fec6c9;
 
 .kreisa {
   position: absolute;
-  max-height: 90%;
+  max-height: 95%;
   width: auto;
   left: -3%;
   animation-duration: 3s;
@@ -88,11 +103,21 @@ color: #fec6c9;
 
 .laba {
   position: absolute;
-  max-height: 90%;
+  max-height: 95%;
   width: auto;
   right: -4%;
     animation-duration: 3s;
   animation-name: slideinright;
+}
+
+.skatuve{
+  position: absolute;
+  max-width: 110%;
+  height: auto;
+  margin-top: 90vh;
+  left: -5%;
+      animation-duration: 3s;
+  animation-name: griida;
 }
 
 @keyframes slideinleft {
@@ -117,10 +142,98 @@ color: #fec6c9;
 
 @keyframes slideinup {
   from {
-    margin-top: -5%;
+    margin-top: -10%;
   }
 
     to {
     margin-top: 0%;
   }
 }
+
+@keyframes griida {
+  from {
+    margin-top: 110vh;
+  }
+
+    to {
+    margin-top: 90vh;
+  }
+}
+
+
+/* te sākas leļļu teātra lietas */
+
+#dzeks1 {
+  position: absolute;
+  max-height: 70%;
+  bottom:-100%;
+  left: 45%;
+}
+
+
+/* animācijas */
+
+       .bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  }
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  @keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  }
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }

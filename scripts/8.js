@@ -39,25 +39,31 @@ $(document).ready(function(){
 	$(".ekransteksts").fitText(1);
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "30%")
 		writethis("I still find it hard \n to trust people", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "24%")
 		writethis("and talk about \n painful things \n outside of the web", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "20%")
 		writethis("Those are not \n the only \n consequences \n of my online years", ".story")
 
 	$(".story").click(function(){
 		writethis("I still have a \n pretty broken \n relationship with \n social media", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "30%")
 		writethis("controlling \n tendencies", ".story")
 
 	$(".story").click(function(){
 		writethis("and a pretty \n blown-up ego", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "20%")
 		writethis("(In a way, \n this work is \n clear proof \n of that)", ".story")
+	
 	$(".story").click(function(){
 		$(".story").css("display", "none")
 
@@ -88,8 +94,12 @@ $(document).ready(function(){
 		setTimeout(function(){
 			$(".story2").css("display", "block")
 			writethis("I love \n the internet", ".story2")
-			$(".sirds").css("margin-top", "45%")
 		}, 2500)
+
+		setTimeout(function(){
+			$(".sirds").css("display", "inline-block")
+			$(".sirds").addClass("bounceInUp")
+		},3400)
 
 
 
@@ -113,22 +123,27 @@ $(document).ready(function(){
 
 
 $(".story2").click(function(){
+		$(".story2").css("margin-top", "24%")
 		writethis("I really do", ".story2")
-
+		
 	$(".story2").click(function(){
-		$(".sirds").css("margin-top", "75%")
+		$(".sirds").addClass("slideOutDown")
+		$(".story2").css("margin-top", "20%")
 		writethis("The digital spaces \n I spent \n so much time \n growing up in", ".story2")
 
 	$(".story2").click(function(){
+		$(".story2").css("margin-top", "24%")
 		writethis("Have changed \n and shaped me \n no less", ".story2")
 
 	$(".story2").click(function(){
 		writethis("Than the \n physical places \n I've called home", ".story2")
 
 	$(".story2").click(function(){
+		$(".story2").css("margin-top", "30%")
 		writethis("and some \n digital homes", ".story2")
 
 	$(".story2").click(function(){
+		$(".story2").css("margin-top", "20%")
 		writethis("have even been \n more permanent \n than some \n physical ones", ".story2")
 
 	$(".story2").click(function(){

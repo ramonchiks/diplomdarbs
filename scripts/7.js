@@ -6,6 +6,10 @@ setTimeout(function() {
 
 	$(".story").click(function(){
 	writethis("that all this \n theatre", ".story")
+setTimeout(function(){
+	$("#dzeks1").addClass("bounceInUp")
+	$("#dzeks1").css("bottom", "-20%")
+}, 1000)
 
 	$(".story").click(function(){
 		writethis("really was about \n gaining some control \n in a chaotic world", ".story")
