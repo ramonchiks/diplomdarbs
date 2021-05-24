@@ -57,10 +57,10 @@ $(document).ready(function(){
 		writethis("and a pretty \n blown-up ego", ".story")
 
 	$(".story").click(function(){
-		writethis("In a way, \n this work is \n clear proof of that", ".story")
+		writethis("(In a way, \n this work is \n clear proof \n of that)", ".story")
 	$(".story").click(function(){
 		$(".story").css("display", "none")
-		$(".story2").css("display", "block")
+
 		setTimeout(function(){
 			$(".ekrans").css("background-color", "#25B4C8")
 		}, 1000)
@@ -77,7 +77,19 @@ $(document).ready(function(){
 
 		setTimeout(function(){
 		$(".static").css("display", "inline-block")
-	}, 1500)
+		$(".tumsaks").css("display", "block")
+	}, 1700)
+
+		setTimeout(function(){
+			
+			$(".fons2").css("opacity", "0")
+		}, 1500)
+
+		setTimeout(function(){
+			$(".story2").css("display", "block")
+			writethis("I love \n the internet", ".story2")
+			$(".sirds").css("margin-top", "45%")
+		}, 2500)
 
 
 
@@ -101,12 +113,10 @@ $(document).ready(function(){
 
 
 $(".story2").click(function(){
-		writethis("I love \n the internet", ".story2")
-
-	$(".story2").click(function(){
 		writethis("I really do", ".story2")
 
 	$(".story2").click(function(){
+		$(".sirds").css("margin-top", "75%")
 		writethis("The digital spaces \n I spent \n so much time \n growing up in", ".story2")
 
 	$(".story2").click(function(){
@@ -119,7 +129,7 @@ $(".story2").click(function(){
 		writethis("and some \n digital homes", ".story2")
 
 	$(".story2").click(function(){
-		writethis("have been more \n permanent than \n some physical ones", ".story2")
+		writethis("have even been \n more permanent \n than some \n physical ones", ".story2")
 
 	$(".story2").click(function(){
 		$(".monitors").attr("src", "./images/dators/datorsarekranu.png")
@@ -132,8 +142,6 @@ $(".story2").click(function(){
 
 	})
 		
-	})
-
 	})
 
 	})

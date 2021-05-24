@@ -8,7 +8,6 @@ html, body {
     height: 100%;
     font-family: diplomdarbs;
     text-align: center;
-    background-color: #fadee9;
 }
 
 @font-face {
@@ -73,7 +72,34 @@ color: #EC045C;
 
 /*Te iet noformējuma lietas*/
 
-.fons {
+.fons2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #FADEE9;
+  opacity: 1;
+   -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+}
+
+.fons3{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+animation: colors 10s infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes colors {
+    from {background-color: #f9f0ae;}
+    50%{background-color: #edaef9}  
+    to {background-color: #b3d5aa;}  
+}
+
+.fons { 
 
     width: 100%;
     height: 100%;
@@ -137,6 +163,27 @@ color: #EC045C;
   display: block;
 
 }
+.tumsaks {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  background-color: black;
+  display: none;
+  opacity: 0.4;
+
+}
+
+.sirdsdiv {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  display: block;
+
+}
 
 .ieksa {
   position: absolute;
@@ -148,4 +195,19 @@ color: #EC045C;
 
 .static {
  display: none;
+ position: absolute;
+ left: -3%;
+}
+
+.sirds {
+  max-width: 20%;
+  position: absolute;
+  margin-top: 75%;
+  margin-left: -10%;
+  opacity: 1;
+   -webkit-transition: margin-top 1.5s ease-out;
+  -moz-transition: margin-top 1.5s ease-out;
+  -o-transition: margin-top 1.5s ease-out;
+  transition: margin-top 1.5s ease-out;
+
 }
