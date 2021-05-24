@@ -72,7 +72,7 @@ html, body {
   position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../images/bgtest/11.png);
+    background: url(../images/bgtest/111.png);
     text-align: center;
     animation: pozicija 8s infinite;
         animation-direction: alternate; 
@@ -89,7 +89,7 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;  
-     background: url(../images/bgtest/22.png);
+     background: url(../images/bgtest/222.png);
     text-align: center;
     animation: pozicijadivi 10s infinite;
         animation-direction: alternate-reverse; 
