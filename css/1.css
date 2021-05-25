@@ -21,7 +21,6 @@ html, body {
 	position: absolute;
     width: 100%;
     height: 100%;
-    text-align: center;
         color: #EC045C;
 }
 
@@ -33,32 +32,34 @@ html, body {
   margin-top: 17%;
   font-size: 10vw;
   cursor: pointer;
-}
-
-.augsejaisteksts {
-
-	width: 100%;
-	height: 25%;
-	display: none;
-  font-size: 5vw;
+   color: #EC045C;
+   position: absolute;
+   z-index: 2;
 }
 
 .yes {
   display: none;
-  width: 20%;
-  height: 20%;
-  margin: 0%;
+  width: 15%;
+  height: 10%;
   font-size: 7vw;
   cursor: pointer;
+  position: absolute;
+  margin-top: 30%;
+  margin-right: 3%;
+  left: 35%;
+  z-index: 2;
 }
 
 .no {
   display: none;
-  width: 20%;
-  height: 20%;
-  margin: 0%;
+  width: 15%;
+  height: 10%;
   font-size: 7vw;
   cursor: pointer;
+  position: absolute;
+  margin-top: 30%;
+  left: 50%;
+  z-index: 2;
 }
 
 .ifyes {
@@ -67,6 +68,9 @@ html, body {
 	display: none;
   font-size: 7vw;
   margin-top: 17%;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
 
 }
 
@@ -76,6 +80,8 @@ html, body {
 	display: none;
   font-size: 7vw;
     margin-top: 17%;
+    position: absolute;
+    z-index: 2;
 }
 
 .story {
@@ -85,8 +91,10 @@ html, body {
   margin-top: 15%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   cursor: pointer;
+  position: absolute;
+  z-index: 2;
 }
 
 .story2 {
@@ -96,8 +104,10 @@ html, body {
   margin-top: 15%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   cursor: pointer;
+  position: absolute;
+  z-index: 2;
 }
 
 
@@ -120,65 +130,450 @@ color: #FADEE9;
   position: absolute;
     width: 100%;
     height: 100%;
+    text-align: center; 
+    z-index: -1; 
     background-color: #FADEE9;
-    text-align: center;  
 }
 
-img {
-  display: inline-block;
+.kreisapusepukes {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 0;
+  z-index: 1;
 }
 
+.labapusepukes {
+  position: absolute;
+  height: 100vh;
+  width: 40%;
+  right: 0;
+  z-index: 1;
+}
+
+#pumpursleft {
+  position: absolute;
+  max-height: 90%;
+  width: auto;
+  right: 70%;
+  top: 25%;
+  transform: rotate(5deg);
+  transform-origin: 50% bottom;
+}
+
+#pukeleft{
+  position: absolute;
+    max-height: 90%;
+    width: auto;
+    left: -15%;
+    bottom: -16%;
+    transform: rotate(-5deg);
+    transform-origin: 50% bottom;
+}
+
+#pukeaugsaleft{
+    position: absolute;
+    max-height: 70%;
+    width: auto;
+    left: -17%;
+    top: 2%;
+    transform: rotate(-12deg);
+    transform-origin: 50% bottom;
+}
+
+#pumpursright {
+  position: absolute;
+  max-height: 90%;
+  width: auto;
+  left: 70%;
+  top: 25%;
+  transform: scaleX(-1) rotate(5deg);
+  transform-origin: 50% bottom;
+}
+
+#pukeright{
+  position: absolute;
+    max-height: 90%;
+    width: auto;
+    right: -15%;
+    bottom: -16%;
+    transform: scaleX(-1) rotate(-5deg);
+    transform-origin: 50% bottom;
+}
+
+#pukeaugsaright{
+    position: absolute;
+    max-height: 70%;
+    width: auto;
+    right: -17%;
+    top: 2%;
+    transform: scaleX(-1) rotate(-12deg);
+    transform-origin: 50% bottom;
+}
+
+#tornisleft{
+  position: absolute;
+    max-height: 40%;
+    width: auto;
+    left: -7%;
+    bottom: -9%;
+    transform: rotate(9deg);
+    transform-origin: 50% bottom;
+}
+
+#asns1left{
+  position: absolute;
+    max-height: 30%;
+    width: auto;
+    left: 17%;
+    bottom: -8%;
+    transform: rotate(-2deg);
+    transform-origin: 50% bottom;
+}
+
+#asns2left{
+  position: absolute;
+    max-height: 30%;
+    width: auto;
+    left: 42%;
+    bottom: -8%;
+    transform: rotate(-3deg);
+    transform-origin: 50% bottom;
+}
+
+#tornisright{
+  position: absolute;
+    max-height: 40%;
+    width: auto;
+    right: -7%;
+    bottom: -9%;
+    transform: scaleX(-1) rotate(9deg);
+    transform-origin: 50% bottom;
+}
+
+#asns1right{
+  position: absolute;
+    max-height: 30%;
+    width: auto;
+    right: 17%;
+    bottom: -8%;
+    transform: scaleX(-1) rotate(-2deg);
+    transform-origin: 50% bottom;
+}
+
+#asns2right{
+  position: absolute;
+    max-height: 30%;
+    width: auto;
+    right: 42%;
+    bottom: -8%;
+    transform: scaleX(-1) rotate(-3deg);
+    transform-origin: 50% bottom;
+}
+
+
+.supojas1{
+  animation-name: supojasviens;
+  animation-direction: alternate;
+   animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojasviens {
+
+  from{
+    transform: rotate(-12deg);
+  }
+
+  to{
+    transform: rotate(0deg);
+  }
+
+}
+
+.supojas2{
+  animation-name: supojasdivi;
+  animation-direction: alternate;
+   animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojasdivi {
+
+  from{
+    transform: rotate(5deg);
+  }
+
+  to{
+    transform: rotate(-1deg);
+    top: 20%;
+  }
+
+}
+
+.supojas3{
+  animation-name: supojastris;
+  animation-direction: alternate;
+   animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojastris {
+
+  from{
+    transform: rotate(-5deg);
+  }
+
+  to{
+    transform: rotate(0deg);
+  }
+
+}
+
+
+.supojas4{
+  animation-name: supojascetri;
+  animation-direction: alternate;
+   animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojascetri {
+
+  from{
+    transform: rotate(-2deg);
+  }
+
+  to{
+    transform: rotate(4deg);
+  }
+
+}
+
+.supojas5{
+  animation-name: supojaspieci;
+  animation-direction: alternate;
+   animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojaspieci {
+
+  from{
+    transform: rotate(9deg);
+  }
+
+  to{
+    transform: rotate(-1deg);
+    bottom: -5%;
+  }
+
+}
+
+.supojas6{
+  animation-name: supojassesi;
+  animation-direction: alternate;
+   animation-duration: 2.5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojassesi {
+
+  from{
+    transform: rotate(-3deg);
+  }
+
+  to{
+    transform: rotate(3deg);
+    bottom: -6%;
+  }
+
+}
+.supojas1right{
+  animation-name: supojasviensright;
+  animation-direction: alternate;
+   animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojasviensright {
+
+  from{
+    transform: scaleX(-1) rotate(-12deg);
+  }
+
+  to{
+    transform: scaleX(-1) rotate(0deg);
+  }
+
+}
+
+.supojas2right{
+  animation-name: supojasdiviright;
+  animation-direction: alternate;
+   animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojasdiviright {
+
+  from{
+    transform: scaleX(-1) rotate(5deg);
+  }
+
+  to{
+    transform: scaleX(-1) rotate(-1deg);
+    top: 20%;
+  }
+
+}
+
+.supojas3right{
+  animation-name: supojastrisright;
+  animation-direction: alternate;
+   animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojastrisright {
+
+  from{
+    transform: scaleX(-1) rotate(-5deg);
+  }
+
+  to{
+    transform: scaleX(-1) rotate(0deg);
+  }
+
+}
+
+.supojas4right {
+  animation-name: supojascetriright;
+  animation-direction: alternate;
+   animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojascetriright {
+
+  from{
+    transform: scaleX(-1) rotate(-2deg);
+  }
+
+  to{
+    transform: scaleX(-1) rotate(4deg);
+  }
+
+}
+
+.supojas5right{
+  animation-name: supojaspieciright;
+  animation-direction: alternate;
+   animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojaspieciright {
+
+  from{
+    transform: scaleX(-1) rotate(9deg);
+  }
+
+  to{
+    transform: scaleX(-1) rotate(-1deg);
+    bottom: -5%;
+  }
+
+}
+
+.supojas6right{
+  animation-name: supojassesiright;
+  animation-direction: alternate;
+   animation-duration: 2.5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+}
+
+@keyframes supojassesiright {
+
+  from{
+    transform: scaleX(-1) rotate(-3deg);
+  }
+
+  to{
+    transform: scaleX(-1) rotate(3deg);
+    bottom: -6%;
+  }
+
+}
 
 /*  parallax */
 
-.parallax-viewport {
-    position: fixed;    
-    overflow: hidden; 
-    width: 100%;
-    height: 100%; 
+.pukukaste{
+  position: absolute;
+  height: 90vh;
+  margin-top: 10vh;
+  width: 100%;
+  overflow: hidden;
 }
+
+
 .parallax-layer {
     position: absolute;
+    z-index: 1;
 }
 
 
 .sakumapuke{
   position: absolute;
-  max-width: 120%;
-  height: auto;
-  bottom: -22%;
-  left: -11%;
+  max-height: 120%;
+  left: 0;
 }
 
 .pukearpumpuru{
   position: absolute;
-  max-width: 120%;
-  height: auto;
-  bottom: -25%;
-  left: -11%;
+  max-height: 120%;
+  left: 0;
 }
 
 .asninsvidu{
   position: absolute;
-  max-width: 120%;
-  height: auto;
-  bottom: -20%;
-  left: -11%;
+  max-height: 120%;
+  left: 0;
 }
 
 .tornis{
   position: absolute;
-  max-width: 120%;
-  height: auto;
-  bottom: -17%;
-  left: -11%;
+  max-height: 120%;
+  left: 0;
 }
 
 .asninsmala{
   position: absolute;
-  max-width: 125%;
-  height: auto;
-  bottom: -15%;
-  left: -13%;
+  max-height: 125%;
+  left: 0;
 }
 

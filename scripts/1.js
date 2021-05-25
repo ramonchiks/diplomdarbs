@@ -7,15 +7,17 @@ $(document).ready(function(){
 		$(".hello").css("height", "17%")
 		$(".hello").css("margin-top", "12%")
 		$(".hello").css("margin-bottom", "7%")
-		$(".yes, .no").css("display", "inline-block")
-		writethis("I would like to tell you a story. \n Are you willing to listen?", ".hello", function(){
-			writethis1("YES", ".yes", function(){
-				writethis2("NO", ".no")
-			})
-		}
-		
-		)
-		
+		writethis("I would like to tell you a story. \n Are you willing to listen?", ".hello")
+		$(".hello").css("cursor", "default")
+
+		setTimeout(function(){
+			$(".yes, .no").css("display", "inline-block")
+			writethis("YES", ".yes")
+		}, 3500)
+		setTimeout(function(){
+			writethis("NO", ".no")
+		}, 3900)
+
 	});
 
 
