@@ -170,8 +170,187 @@ color: #d79dda;
   left: 45%;
 }
 
+#pile {
+  position: absolute;
+  max-height: 65%;
+  bottom:-5%;
+  left: -9%;
+  transform-origin: 50% bottom;
+  transform: rotate(35deg);
+}
+
+
+#zakis {
+  position: absolute;
+  max-height: 65%;
+  bottom:-30%;
+  left: 10%;
+  transform-origin: 50% bottom;
+  transform: rotate(10deg);
+}
+
+
+#zvaigzne {
+  position: absolute;
+  max-height: 65%;
+  bottom:-25%;
+  left: 36%;
+  transform-origin: 50% bottom;
+  transform: rotate(-10deg)
+}
+
+
+#zirneklis {
+  position: absolute;
+  max-height: 65%;
+  bottom:-32%;
+  right: 28%;
+  transform-origin: 50% bottom;
+  transform: rotate(7deg)
+}
+
+
+#zivs {
+  position: absolute;
+  max-height: 65%;
+  bottom:-18%;
+  right: 12%;
+  transform-origin: 50% bottom;
+  transform: rotate(-3deg)
+}
+
+#chuska {
+  position: absolute;
+  max-height: 65%;
+  bottom:-27%;
+  right: -2%;
+  transform-origin: 50% bottom;
+  transform: rotate(-10deg)
+}
+
+
+
 
 /* animācijas */
+
+
+.pileieksa{
+  animation-name: pileieksa;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes pileieksa {
+
+  0%{
+    bottom: -100%;
+    left: -100%;    
+  }
+
+  100%{
+    bottom: -5%;
+    left: -9%;      
+  }
+}
+
+.zakisieksa{
+  animation-name: zakisieksa;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes zakisieksa {
+
+  0%{
+    bottom: -100%;
+    left: 8%;    
+  }
+
+  100%{
+    bottom: -30%;
+    left: 10%;      
+  }
+}
+
+.zvaigzneieksa{
+  animation-name: zvaigzneieksa;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes zvaigzneieksa {
+
+  0%{
+    bottom: -100%;
+    left: 30%;    
+  }
+
+  100%{
+    bottom: -25%;
+    left: 36%;      
+  }
+}
+
+.zirneklisieksa{
+  animation-name: zirneklisieksa;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes zirneklisieksa {
+
+  0%{
+    bottom: -100%;
+    right: 30%;    
+  }
+
+  100%{
+    bottom: -32%;
+    right: 28%;      
+  }
+}
+
+.zivsieksa{
+  animation-name: zivsieksa;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes zivsieksa {
+
+  0%{
+    bottom: -100%;
+    right: 15%;    
+  }
+
+  100%{
+    bottom: -18%;
+    right: 12%;      
+  }
+}
+
+.chuskaieksa{
+  animation-name: chuskaieksa;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes chuskaieksa {
+
+  0%{
+    bottom: -100%;
+    right: -5%;    
+  }
+
+  100%{
+    bottom: -27%;
+    right: -2%;      
+  }
+}
+
+
+
+
 
        .bounceInUp {
   -webkit-animation-name: bounceInUp;
