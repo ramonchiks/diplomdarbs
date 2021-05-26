@@ -32,9 +32,22 @@ html, body {
   margin-top: 10%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
-  color: #401746;
+  width: 80%;
+  color: #0d776f;
   cursor: pointer;
+  position: absolute;
+}
+.story3 {
+    height: 10%;
+    display: none;
+  font-size: 5vw;
+  margin-top: 10%;
+  margin-left:10%;
+  margin-right: 10%; 
+  width: 80%;
+  color: #FFFFFF;
+  cursor: pointer;
+  position: absolute;
 }
 
 .story2 {
@@ -44,10 +57,11 @@ html, body {
   margin-top: 15%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   display: none;
   color: #FFFFFF;
   cursor: pointer;
+  position: absolute;
 }
 
 .new-line {
@@ -56,7 +70,7 @@ html, body {
 
 a {
 text-decoration: none;
-color: #401746;
+color: #0d776f;
 }
 
 /*Te iet noformējuma lietas*/
@@ -65,19 +79,200 @@ color: #401746;
   position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #A38DCE;
-      -webkit-transition: background-color 0.3s ease-in;
-  -moz-transition: background-color 0.3s ease-in;
-  -o-transition: background-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in;
+}
+
+.fonakrasa{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #edaef9;
+}
+
+.visible{
+  opacity: 1;
+            -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+}
+
+.zals1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/6bg/1zals.png);
+  animation: pozicija 3s infinite;
+        animation-direction: alternate; 
+}
+
+@keyframes pozicija {
+    from {background-position: 0% 0%;}  
+    to {background-position: 100% 100%;}  
+}
+
+.zals2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/6bg/2zals.png);
+  animation: pozicijadivi 3s infinite;
+        animation-direction: alternate-reverse; 
+}
+
+
+@keyframes pozicijadivi {
+    from {background-position: 30% 50%;}
+    33%{background-position: 15% 9%;}  
+    66%{background-position: 34% 90%;} 
+    to {background-position: 11% 60%;}  
+}
+
+
+
+#chuska{
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  right: -4%;
+  bottom: -2%;
+  transform: rotate(180deg);
+
+          animation: chuskarote infinite 7s;
+    animation-timing-function: linear;
+        animation-direction: alternate;
+}
+
+#pile{
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  left: -1%;
+  bottom: -2%;
+            animation: pilerote infinite 9s;
+    animation-timing-function: linear;
+        animation-direction: alternate;
+}
+
+#zivs{
+  position: absolute;
+  max-height: 90%;
+  left: 0;
+  top: 0;
+  transform:scaleX(-1);
+              animation: zivsrote infinite 7s;
+    animation-timing-function: linear;
+        animation-direction: alternate;
+}
+
+#zirneklis{
+  position: absolute;
+  max-height: 90%;
+  width: auto;
+    left: -1%;
+  bottom: -2%;
+  transform: rotate(45deg) scaleX(-1);  
+
+            animation: zirneklisrote infinite 9s;
+    animation-timing-function: linear;
+        animation-direction: alternate;
+}
+
+#zakis{
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  left: -1%;
+  bottom: -2%;
+  transform: scaleX(-1);
+          animation: zakisrote infinite 8s;
+    animation-timing-function: linear;
+        animation-direction: alternate;
+}
+
+#zvaigzne{
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  right: 0%;
+  bottom: 3%; 
+        animation: zvaigznerote infinite 8s;
+    animation-timing-function: linear;
+        animation-direction: alternate;
+}
+
+.pile{
+  position: absolute;
+  margin-top: 3%;  
+  margin-left: -2%;
+  top: -100%;
+  height: 20vh;
+  width: 20vh;
+  left: -100%;
+  z-index: 2;
+}
+
+.zivs{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: -9%;
+  top: -100%;
+  height: 14vh;
+  width: 30vh;
+  left: -100%;
+  z-index: 1;
+}
+
+.zirneklis{
+  position: absolute;
+  height: 25vh;
+  width: 25vh;
+  right: -100%;
+  top: -100%;
+}
+
+.zakis {
+  position: absolute;
+  height: 23vh;
+  width: 23vh;
+  left: -100%;
+  bottom: -100%;
+}
+
+.chuska{
+  position: absolute;
+  height: 15vh;
+  width: 35vh;
+  bottom: -100%;
+  right: -100%;
+  transform: rotate(-7deg);
+}
+
+.zvaigzne {
+  position: absolute;
+  width: 25vh;
+  height: 25vh;
+  bottom: -100%;
+  right: -100%;
+}
+
+.mantukaste{
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+     -webkit-transition: bottom 0.6s ease-in;
+  -moz-transition: bottom 0.6s ease-in;
+  -o-transition: bottom 0.6s ease-in;
+  transition: bottom 0.6s ease-in;
 }
 
 .dzeks1 {
   position: absolute;
   max-height: 55%;
   width: auto;
-  bottom: -10%;
+  bottom: -60%;
   left: 40%;
+   opacity:1;
 }
 
 .dzeks2 {
@@ -86,6 +281,7 @@ color: #401746;
   width: auto;
   bottom: -10%;
   left: 36.3%;
+   opacity:0;
 }
 
 .dzeks3 {
@@ -94,6 +290,7 @@ color: #401746;
   width: auto;
   bottom: -10%;
   left: 33%;
+   opacity:0;
 }
 
 .dzeks4 {
@@ -102,6 +299,7 @@ color: #401746;
   width: auto;
   bottom: -10%;
   left: 40%;
+   opacity:0;
 }
 
 .dzeks5 {
@@ -110,31 +308,228 @@ color: #401746;
   width: auto;
   bottom: -9.5%;
   left: 37%;
+   opacity:0;
+}
+
+/* TE SĀKAS ANIMĀCIJAS BLIN LET'S GOOOOO */
+
+
+@keyframes zvaigznerote {
+
+  0%{
+    transform: rotate(-25deg);
+  }
+
+  100%{
+  transform: rotate(25deg);    
+  }
+
+}
+
+@keyframes chuskarote {
+
+  0%{
+      transform: rotate(180deg);
+  }
+
+  100%{
+  transform: rotate(130deg);    
+  }
+
+}
+
+@keyframes pilerote {
+
+  0%{
+      transform: rotate(-24deg);
+  }
+
+  100%{
+  transform: rotate(20deg);    
+  }
+
+}
+
+@keyframes zivsrote {
+
+  0%{
+      transform: scaleX(-1) rotate(-35deg);
+  }
+
+  100%{
+  transform: scaleX(-1) rotate(7deg);    
+  }
+
+}
+
+@keyframes zakisrote {
+
+  0%{
+      transform: scaleX(-1) rotate(-35deg);
+  }
+
+  100%{
+  transform: scaleX(-1) rotate(7deg);    
+  }
+
+}
+
+@keyframes zirneklisrote {
+
+  0%{
+      transform: scaleX(-1) rotate(-60deg);
+  }
+
+  100%{
+  transform: scaleX(-1) rotate(-30deg);    
+  }
+
+}
+
+
+
+
+
+.pileieksa{
+  animation-name: pileieksa;
+    animation-duration: 2.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes pileieksa {
+
+  0%{
+    top: -30%;
+    left: -30%;    
+  }
+
+  100%{
+    top: 5%;
+    left: 5%;      
+  }
+}
+
+.zivsieksa{
+  animation-name: zivsieksa;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes zivsieksa {
+
+  0%{
+    top: -30%;
+    left: -15%;    
+  }
+
+  100%{
+    top: 2%;
+    left: 13%;      
+  }
+}
+
+.zirneklisieksa{
+  animation-name: zirneklisieksa;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes zirneklisieksa {
+
+  0%{
+    top: -30%;
+    right: -30%;    
+  }
+
+  100%{
+    top: 5%;
+    right: 7%;      
+  }
+}
+
+.zakisieksa{
+  animation-name: zakisieksa;
+    animation-duration: 2.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes zakisieksa {
+
+  0%{
+    bottom: -30%;
+    left: -30%;    
+  }
+
+  100%{
+    bottom: 2%;
+    left: 2%;      
+  }
+}
+
+.zvaigzneieksa{
+  animation-name: zvaigzneieksa;
+    animation-duration: 2.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes zvaigzneieksa {
+
+  0%{
+    bottom: -30%;
+    right: -10%;    
+  }
+
+  100%{
+    bottom: -1%;
+    right: 10%;      
+  }
+}
+
+.chuskaieksa{
+  animation-name: chuskaieksa;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes chuskaieksa {
+
+  0%{
+    bottom: -30%;
+    right: -30%;    
+  }
+
+  100%{
+    bottom: 4%;
+    right: -1%;      
+  }
+}
+
+
+
+
+
+.izlien {
+     -webkit-transition: bottom 0.6s ease-out;
+  -moz-transition: bottom 0.6s ease-out;
+  -o-transition: bottom 0.6s ease-out;
+  transition: bottom 0.6s ease-out;
 }
 
 .transparent{
-  opacity:0;
       -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
 
-.visible{
-      -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  opacity:1;
-}
 
 .mazaks{
   transform: scale(0.7) translateY(20%);
 
-   -webkit-transition: transform 3s ease-out;
-  -moz-transition: transform 3s ease-out;
-  -o-transition: transform 3s ease-out;
-  transition: transform 3s ease-out;
+   -webkit-transition: transform 1.2s ease-in;
+  -moz-transition: transform 1.2s ease-in;
+  -o-transition: transform 1.2s ease-in;
+  transition: transform 1.2s ease-in;
 }
 
 .uzleju {
