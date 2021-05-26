@@ -22,6 +22,7 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
+    z-index: 3;
         
 }
 
@@ -33,7 +34,7 @@ html, body {
   margin-left:10%;
   margin-right: 10%; 
   width: 80%;
-  color: #0d776f;
+  color: #186b64;
   cursor: pointer;
   position: absolute;
 }
@@ -70,7 +71,7 @@ html, body {
 
 a {
 text-decoration: none;
-color: #0d776f;
+color: #186b64;
 }
 
 /*Te iet noformējuma lietas*/
@@ -79,13 +80,27 @@ color: #0d776f;
   position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 
 .fonakrasa{
    position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #edaef9;
+    background-color: #f8afec;
+}
+
+.fonakrasa2{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.fons2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .visible{
@@ -127,6 +142,108 @@ color: #0d776f;
     to {background-position: 11% 60%;}  
 }
 
+
+.galvaContainer{
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  bottom: 12vh;
+  left: 46%;
+  display: none;
+  animation: visirote infinite 8s;
+    animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+}
+
+#galvachuska{
+  position: absolute;
+  max-height: 100%;
+  transform: rotate(25deg);
+  animation-name: chuskagalva;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+.galvachuska{
+  height: 80%;
+  width: 80%;
+  position: absolute;
+}
+
+#galvapile{
+  position: absolute;
+  max-height: 100%;
+  animation-name: pilegalva;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+.galvapile{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
+
+#galvazirneklis{
+  position: absolute;
+  max-height: 100%;
+      top: 0%;
+    right: : 0%;
+  animation-name: zirneklisgalva;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+.galvazirneklis{
+  height:60%;
+  width: 60%;
+  position: absolute;
+}
+
+#galvazakis{
+  position: absolute;
+  max-height: 100%;
+  animation-name: zakisgalva;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+.galvazakis{
+  height: 50%;
+  width: 60%;
+  position: absolute;
+}
+
+#galvazivs{
+  position: absolute;
+  max-height: 100%;
+  animation-name: zivsgalva;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+.galvazivs{
+  height: 40%;
+  width: 50%;
+  position: absolute;
+}
+
+#galvazvaigzne{
+  position: absolute;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+    animation-name: zvaigznegalva;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+.galvazvaigzne{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
 
 
 #chuska{
@@ -312,6 +429,177 @@ color: #0d776f;
 }
 
 /* TE SĀKAS ANIMĀCIJAS BLIN LET'S GOOOOO */
+
+@keyframes zvaigznegalva {
+
+  0%{
+    top: 0%;
+    left: 0%;    
+  }
+
+  100%{
+    top: -160%;
+    left: -40%;      
+  }
+}
+
+@keyframes zvaigznegalvaatpakal {
+
+  0%{
+    top: -160%;
+    left: -40%;     
+  }
+
+  100%{ 
+        top: 0%;
+    left: 0%;    
+  }
+}
+
+
+@keyframes zivsgalva {
+
+  0%{
+    top: 0%;
+    left: 0%;    
+  }
+
+  100%{
+    top: -130%;
+    left: -150%;      
+  }
+}
+
+@keyframes zivsgalvaatpakal {
+
+  0%{
+    top: -130%;
+    left: -150%;    
+  }
+
+  100%{
+        top: 0%;
+    left: 0%;     
+  }
+}
+
+@keyframes zirneklisgalva {
+
+  0%{
+    top: 0%;
+    right: 0%;    
+  }
+
+  100%{
+    top: -140%;
+    right: -150%;      
+  }
+}
+
+@keyframes zirneklisgalvaatpakal {
+
+  0%{
+        top: -140%;
+    right: -150%;    
+  }
+
+  100%{
+    top: 0%;
+    right: 0%;      
+  }
+}
+
+@keyframes pilegalva {
+
+  0%{
+    top: 0%;
+    right: 0%;    
+  }
+
+  100%{
+    top: -90%;
+    right: -300%;      
+  }
+}
+
+@keyframes pilegalvaatpakal {
+
+  0%{
+    top: -90%;
+    right: -300%;    
+  }
+
+  100%{
+        top: 0%;
+    right: 0%;     
+  }
+}
+
+@keyframes chuskagalva {
+
+  0%{
+    top: 0%;
+    right:  0%;    
+  }
+
+  100%{
+    top: 20%;
+    right: -165%;      
+  }
+}
+
+@keyframes chuskagalvaatpakal {
+
+  0%{
+        top: 20%;
+    right: -165%;   
+  }
+
+  100%{
+    top: 0%;
+    right:  0%;     
+  }
+}
+
+@keyframes zakisgalva {
+
+  0%{
+    top: 0%;
+    left:  0%;    
+  }
+
+  100%{
+    top: 30%;
+    left: -150%;      
+  }
+}
+
+@keyframes zakisgalvaatpakal {
+
+  0%{
+    top: 30%;
+    left: -150%;   
+  }
+
+  100%{
+        top: 0%;
+    left:  0%;      
+  }
+}
+
+
+@keyframes visirote {
+
+  0%{
+    transform: rotate(-12deg);
+  }
+
+  100%{
+  transform: rotate(12deg);    
+  }
+
+}
+
 
 
 @keyframes zvaigznerote {
@@ -526,17 +814,17 @@ color: #0d776f;
 .mazaks{
   transform: scale(0.7) translateY(20%);
 
-   -webkit-transition: transform 1.2s ease-in;
-  -moz-transition: transform 1.2s ease-in;
-  -o-transition: transform 1.2s ease-in;
-  transition: transform 1.2s ease-in;
+   -webkit-transition: transform 1.2s ease-in-out;
+  -moz-transition: transform 1.2s ease-in-out;
+  -o-transition: transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
 }
 
 .uzleju {
 
     transform: translateY(20.3%) scale(0.7);
-        -webkit-transition: transform 3s ease-out;
-  -moz-transition: transform 3s ease-out;
-  -o-transition: transform 3s ease-out;
-  transition: transform 3s ease-out;
+        -webkit-transition: transform 2s ease-out;
+  -moz-transition: transform 2s ease-out;
+  -o-transition: transform 2s ease-out;
+  transition: transform 2s ease-out;
 }

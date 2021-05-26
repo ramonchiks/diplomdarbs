@@ -6,6 +6,7 @@ $(document).ready(function(){
 	}, 1000)
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "13%")
 		writethis("energy", ".story")
 		$("#viens").removeClass("izlien")
 		$("#viens").addClass("transparent")
@@ -23,6 +24,7 @@ $(document).ready(function(){
 		$("#cetri").css("opacity", "1")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "7%")
 		writethis("But once you have \n the constant easy flow  \n of validation", ".story")
 		setTimeout(function(){
 			$("#chuskabox").addClass("chuskaieksa")
@@ -34,12 +36,15 @@ $(document).ready(function(){
 		}, 2100)
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "10%")
 		writethis("that doesn't \n challenge you", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "7%")
 		writethis("deliberately \n  putting yourself \n through the emotional hassle", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "10%")
 		writethis("of real \n relationships ", ".story")
 
 	$(".story").click(function(){
@@ -52,20 +57,21 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		$(".story").css("display", "none")
-		$(".fons").css("background-color", "#151512")
+		$(".fonakrasa2").css("background-color", "black")
 
 		setTimeout(function(){
 		$(".visible").css("opacity", "0")
-		}, 500)
+		}, 800)
 
 		setTimeout(function(){
 			$(".dzeks5").addClass("mazaks")
-		}, 3000)
+		}, 4000)
 
 		setTimeout(function(){
 			$(".story3").css("display", "block")
+			$(".story3").css("margin-top", "13%")
 		writethis("The following \n isolation", ".story3")
-		}, 6000)
+		}, 7000)
 
 		$(".story3").click(function(){
 		writethis("and failure to deal \n with real human issues", ".story3")
@@ -79,10 +85,19 @@ $(document).ready(function(){
 		writethis("Relying on the love of people \n who only really exist in your head", ".story3")
 
 	$(".story3").click(function(){
+		$(".story3").css("margin-top", "15%")
 		writethis("can be fun", ".story3")
+		$(".galvaContainer").css("display", "block")
 
 	$(".story3").click(function(){
 		writethis("but not sustainable", ".story3")
+		$("#galvapile").css("animation-name", "pilegalvaatpakal")
+		$("#galvachuska").css("animation-name", "chuskagalvaatpakal")
+		$("#galvazivs").css("animation-name", "zivsgalvaatpakl")
+		$("#galvazirneklis").css("animation-name", "zirneklisgalvaatpakl")
+		$("#galvazvaigzne").css("animation-name", "zvaigznegalvaatpakal")
+		$("#galvazakis").css("animation-name", "zakisgalvaatpakal")
+
 
 	$(".story3").click(function(){
 		writethis("I really was left quite alone", ".story3")
