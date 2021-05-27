@@ -11,6 +11,7 @@ $(document).ready(function(){
 		$(".hello").css("cursor", "default")
 
 		setTimeout(function(){
+			$(".dummy").css("display", "block")
 			$(".yes, .no").css("display", "inline-block")
 			writethis("YES", ".yes")
 		}, 3500)
@@ -25,12 +26,14 @@ $(document).ready(function(){
 
 
 	$(".yes").click(function(){
+		$(".dummy").css("display", "none")
 		$(".ifyes").css("display", "block")
 		writethis("Thanks :)", ".ifyes")
 		$(".yesno, .yes, .no, .hello").css("display", "none")
 	});
 
 	$(".no").click(function(){
+		$(".dummy").css("display", "none")
 		$(".ifno").css("display", "block")
 		writethis(":(", ".ifno")
 		$(".yes, .no, .hello").css("display", "none")
