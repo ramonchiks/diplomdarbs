@@ -20,8 +20,8 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		writethis("and people listened \n in return", ".story")
-		$("#mantas, #mantas1, #mantas2, #mantas3, #mantas4, #mantas5, #mantas6, #mantas7").removeClass("transparent")
-		$("#mantas, #mantas1, #mantas2, #mantas3, #mantas4, #mantas5, #mantas6, #mantas7").addClass("visible")
+			$(".parallax-layer").css("opacity", "1")
+
 
 	$(".story").click(function(){
 		writethis("Over time, \n it got to a point", ".story")
