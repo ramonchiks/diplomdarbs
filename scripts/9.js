@@ -21,6 +21,7 @@ $(document).ready(function(){
 		writethis("especially those of a \n younger generation", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "6%")
 		$(".orhidejas").css("margin-top", "23%")
 		writethis("is very interesting", ".story")
 
@@ -32,6 +33,7 @@ $(document).ready(function(){
 		setTimeout(function() {
 		$(".seja").css("margin-top", "11%")
 	}, 3000)
+		$(".story").css("margin-top", "3%")
 		writethis("The internet has become \n a place to escape from the real world", ".story")
 
 	$(".story").click(function(){
@@ -118,6 +120,7 @@ $(document).ready(function(){
 		writethis("The whole scope of this is way larger \n than I could ever grasp in a single work", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "6%")
 		writethis("This is just my experience", ".story")
 
 	$(".story").click(function(){

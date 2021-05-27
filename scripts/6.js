@@ -94,7 +94,7 @@ $(document).ready(function(){
 		$("#galvapile").css("animation-name", "pilegalvaatpakal")
 		$("#galvachuska").css("animation-name", "chuskagalvaatpakal")
 		$("#galvazivs").css("animation-name", "zivsgalvaatpakal")
-		$("#galvazirneklis").css("animation-name", "zirneklisgalvaatpakl")
+		$("#galvazirneklis").css("animation-name", "zirneklisgalvaatpakal")
 		$("#galvazvaigzne").css("animation-name", "zvaigznegalvaatpakal")
 		$("#galvazakis").css("animation-name", "zakisgalvaatpakal")
 

@@ -17,9 +17,13 @@ $(document).ready(function(){
 		writethis("and what \n to keep hidden", ".story")
 
 	$(".story").click(function(){
-		writethis("It isn't hard to see how tempting \n that becomes for someone wishing \n to escape reality", ".story")
+		writethis("It isn't hard to see \n how tempting that becomes", ".story")
 
 	$(".story").click(function(){
+		writethis("for someone wishing \n to escape reality", ".story")
+
+	$(".story").click(function(){
+		$(".story").css("margin-top", "17%")
 		writethis("and so I did", ".story")
 
 	$(".story").click(function(){
@@ -57,6 +61,7 @@ $(document).ready(function(){
  window.location="4ENG.html"
 })
 	
+	})
 
 	})
 

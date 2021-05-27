@@ -88,20 +88,54 @@ html, body {
 	height: 10%;
 	display: none;
   font-size: 5vw;
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left:10%;
   margin-right: 10%; 
   width: 80%;
   cursor: pointer;
   position: absolute;
   z-index: 2;
+  opacity: 1;
 }
+
+.storyMiddle {
+  height: 10%;
+  display: none;
+  font-size: 5vw;
+  margin-top: 12%;
+  margin-left:10%;
+  margin-right: 10%; 
+  width: 80%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+              -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
+}
+
+.story3 {
+  height: 10%;
+  display: none;
+  font-size: 5vw;
+  margin-top: 12%;
+  margin-left:10%;
+  margin-right: 10%; 
+  width: 80%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+}
+
 
 .story2 {
   height: 10%;
   display: none;
   font-size: 5vw;
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left:10%;
   margin-right: 10%; 
   width: 80%;

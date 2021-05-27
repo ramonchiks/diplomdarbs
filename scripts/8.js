@@ -147,10 +147,15 @@ $(".story2").click(function(){
 		writethis("have even been \n more permanent \n than some \n physical ones", ".story2")
 
 	$(".story2").click(function(){
-		$(".monitors").attr("src", "./images/dators/datorsarekranu.png")
 		$(".story2").css("display", "none")
 		$(".story3").css("display", "block")
-		writethis(":)", ".story3")
+		setTimeout(function(){
+			$(".monitors").attr("src", "./images/dators/datorsarekranu.png")
+		}, 1000)
+		setTimeout(function(){
+			writethis(":)", ".story3")
+		}, 1800)
+
 	})
 
 	})
