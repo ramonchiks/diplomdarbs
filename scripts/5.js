@@ -2,11 +2,12 @@ $(document).ready(function(){
 	//$(".zirneklistikla").addClass("zirnekliskustas")
 	
 	setTimeout(function() {
-	writethis("It is hard to describe \n how much I trusted the internet", ".story")
+	writethis("It is hard to describe \n how much I trusted \n the internet", ".story")
 }, 3500)
 
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "13%")
 		writethis("And the more I gave, \n the more I got back", ".story")
 		$(".zirneklistikla").removeClass("zirneklisnak")
 		$(".zirneklistikla").addClass("zirneklisiesupojas")
@@ -27,9 +28,11 @@ $(document).ready(function(){
 		writethis("Over time, \n it got to a point", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "10%")
 		writethis("where hundreds, \n sometimes even thousands \n of people", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "13%")
 		writethis("would read my diary \n every day", ".story")
 
 	$(".story").click(function(){
@@ -40,13 +43,19 @@ $(document).ready(function(){
 		writethis("that never \n challenged me", ".story")
 
 	$(".story").click(function(){
-		writethis("a pseudo-social relationship like that \n is awfully comfortable", ".story")
+		$(".story").css("margin-top", "10%")
+		writethis("a pseudo-social \n relationship \n like that", ".story")
 
+	$(".story").click(function(){
+		$(".story").css("margin-top", "13%")
+		writethis("is awfully \n comfortable", ".story")
 
 	$(".story").click(function(){
 		$(".story").css("display", "none")
 		$(".story2").css("display", "block")
 		writethis("it is missing everything \n that makes interactions in real life \n difficult", ".story2")
+
+	})	
 
 	})	
 

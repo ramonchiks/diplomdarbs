@@ -34,7 +34,7 @@ html, body {
   margin-left:10%;
   margin-right: 10%; 
   width: 80%;
-  color: #186b64;
+  color: #f3efed;
   cursor: pointer;
   position: absolute;
 }
@@ -87,7 +87,7 @@ color: #186b64;
    position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #f8afec;
+    background-color: #edb0b0;
 }
 
 .fonakrasa2{
@@ -115,7 +115,7 @@ color: #186b64;
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(../images/6bg/1zals.png);
+  background: url(../images/6bg/1zalaks.png);
   animation: pozicija 3s infinite;
         animation-direction: alternate; 
 }
@@ -129,7 +129,7 @@ color: #186b64;
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(../images/6bg/2zals.png);
+  background: url(../images/6bg/2zalaks.png);
   animation: pozicijadivi 3s infinite;
         animation-direction: alternate-reverse; 
 }
@@ -322,8 +322,8 @@ color: #186b64;
   margin-top: 3%;  
   margin-left: -2%;
   top: -100%;
-  height: 20vh;
-  width: 20vh;
+  height: 30vh;
+  width: 30vh;
   left: -100%;
   z-index: 2;
 }
@@ -333,32 +333,32 @@ color: #186b64;
   margin-top: 1%;
   margin-left: -9%;
   top: -100%;
-  height: 14vh;
-  width: 30vh;
+  height: 21vh;
+  width: 40vh;
   left: -100%;
   z-index: 1;
 }
 
 .zirneklis{
   position: absolute;
-  height: 25vh;
-  width: 25vh;
+  height: 35vh;
+  width: 35vh;
   right: -100%;
   top: -100%;
 }
 
 .zakis {
   position: absolute;
-  height: 23vh;
-  width: 23vh;
+  height: 33vh;
+  width: 33vh;
   left: -100%;
   bottom: -100%;
 }
 
 .chuska{
   position: absolute;
-  height: 15vh;
-  width: 35vh;
+  height: 25vh;
+  width: 45vh;
   bottom: -100%;
   right: -100%;
   transform: rotate(-7deg);
@@ -366,8 +366,8 @@ color: #186b64;
 
 .zvaigzne {
   position: absolute;
-  width: 25vh;
-  height: 25vh;
+  width: 35vh;
+  height: 35vh;
   bottom: -100%;
   right: -100%;
 }
