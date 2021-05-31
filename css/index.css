@@ -18,13 +18,30 @@ html, body {
 
 /* te sākās teksta lietas */
 
-.valoda {
+.valodabox{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 33%;
+    left: 25%;
+}
 
+.latviesu {
+    position: absolute;
 	display: inline-block;
-	width: 30%;
-	height: 20%;
-    margin-top: 33vh;
+	width: 50%;
+	height: 100%;
     font-size: 10vw;
+    left: 0%;
+}
+
+.anglu {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 10vw;
+    right: 0%;
 }
 
 .teksts {
@@ -36,20 +53,125 @@ html, body {
 }
 
 .lv {
+    height: 100%;
+    width: 50%;
     font-size: 10vw;
     mix-blend-mode: screen;
     color: #EC045C;
     display: inline-block;
     cursor: pointer;
+    position: absolute;
+    left: 20%;
+    z-index: 1;
+}
+.lv2 {
+    height: 100%;
+    width: 50%;
+    font-size: 10vw;
+    color: #EC045C;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 20%;
+        opacity: 0;
+              -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  z-index: 2;
 }
 
 
 .eng {
+     height: 100%;
+    width: 60%;
     font-size: 10vw;
     mix-blend-mode: screen;
     color: #EC045C;
     display: inline-block;
     cursor: pointer;
+    position: absolute;
+    left: 20%;
+    z-index: 1;
+}
+
+.eng2 {
+    font-size: 10vw;
+    color: #EC045C;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 20%;
+    height: 100%;
+    width: 60%;
+    opacity: 0;
+              -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  z-index: 2;
+}
+
+.jautajums{
+    position: absolute;
+    left: 0;
+    font-size: 4vw;
+    color: #EC045C;
+    mix-blend-mode: screen;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.jautajums2{
+    position: absolute;
+    left: 0;
+    font-size: 4vw;
+    color: #EC045C;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+              -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  z-index: 2;
+}
+
+
+.jautajumsbox{
+    position: absolute;
+    display: inline-block;
+    height: 7%;
+    width: 4%;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+}
+
+.infobox{
+    position: absolute;
+    width: 20vw;
+    height: 14vw;
+    right: 2%;
+    top: 3%;
+    z-index: 1;
+    opacity: 0;
+              -webkit-transition: opacity 0.4s ease-in;
+  -moz-transition: opacity 0.4s ease-in;
+  -o-transition: opacity 0.4s ease-in;
+  transition: opacity 0.4s ease-in;
+}
+
+.infobilde {
+    max-width: 100%;
+    position: absolute;
+    left: -6%;
+    top: 3%;
 }
 
 /* JA uzliek mix blend mode FONAM, sanāk cloud effect omg omg omg */ 

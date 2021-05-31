@@ -1,22 +1,35 @@
 $(document).ready(function(){
-		$(".lv").mouseover(function(){
-			$(".lv").css("mix-blend-mode", "normal")
+
+		$(".jautajums").css("mix-blend-mode", "screen")
+
+		$(".jautajumsbox").mouseover(function(){
+			$(".infobox").css("opacity", "1")
+			$(".jautajums2").css("opacity", "1")
+		})
+
+		$(".jautajumsbox").mouseleave(function(){
+			$(".infobox").css("opacity", "0")
+			$(".jautajums2").css("opacity", "0")
+		})
+
+		$(".lv2").mouseover(function(){
+			$(".lv2").css("opacity", "1")
 
 		})
 
-		$(".lv").mouseleave(function(){
-			$(".lv").css("mix-blend-mode", "screen")
+		$(".lv2").mouseleave(function(){
+			$(".lv2").css("opacity", "0")
 
 		})
 
 
-		$(".eng").mouseover(function(){
-			$(".eng").css("mix-blend-mode", "normal")
+		$(".eng2").mouseover(function(){
+			$(".eng2").css("opacity", "1")
 
 		})
 
-		$(".eng").mouseleave(function(){
-			$(".eng").css("mix-blend-mode", "screen")
+		$(".eng2").mouseleave(function(){
+			$(".eng2").css("opacity", "0")
 
 		})
 
