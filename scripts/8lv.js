@@ -47,9 +47,10 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		$(".story").css("margin-top", "20%")
-		writethis("Tās nav vienīgās \n pēdas, kuras \n atstājis \n interneta laiks -", ".story")
+		writethis("Tās nav vienīgās \n pēdas, kuras \n atstājis \n interneta laiks", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "16%")
 		writethis("Man joprojām ir \n vidēji salauztas \n attiecības ar \n sociālajiem \n medijiem", ".story")
 
 	$(".story").click(function(){

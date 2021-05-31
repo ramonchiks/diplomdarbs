@@ -32,7 +32,7 @@ $(document).ready(function(){
 	$(".story").click(function(){
 		setTimeout(function() {
 		$(".seja").css("margin-top", "11%")
-	}, 3000)
+	}, 2100)
 		$(".story").css("margin-top", "3%")
 		writethis("tā izveido jaunas\n komunikācijas formas", ".story")
 

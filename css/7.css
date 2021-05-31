@@ -306,7 +306,7 @@ color: #d79dda;
 
   100%{
     bottom: -32%;
-    right: 28%;      
+    right: 28%;    
   }
 }
 
@@ -558,8 +558,6 @@ color: #d79dda;
 0%{
     bottom: -32%;
     right: 28%;  
-  transform: rotate(7deg);
-   transform-origin: 50% top;
 
 }
 

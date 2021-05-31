@@ -43,10 +43,11 @@ setTimeout(function(){
 		},3700)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "20vh")
+		$(".story").css("margin-top", "23vh")
 		writethis("Visu kontrolēt ir", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "20vh")
 		$(".story").css("font-size", "7vw")
 		writethis("ĻOTI", ".story")
 

@@ -44,6 +44,7 @@ $(document).ready(function(){
 		writethis("ko pieprasa \n veselīgu attiecību \n veidošana", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("margin-top", "10%")
 		writethis("vienkārši neliekas \n tā vērts", ".story")
 		$("#cetri").css("opacity", "0")
 		$("#pieci").css("opacity", "1")
@@ -75,7 +76,7 @@ $(document).ready(function(){
 
 	$(".story3").click(function(){
 		$(".dzeks5").addClass("uzleju")
-		writethis("tikai ievlek tevi \n dziļāk purvā", ".story3")
+		writethis("tikai ievelk tevi \n dziļāk purvā", ".story3")
 
 	$(".story3").click(function(){
 		writethis("Paļauties uz tikai savā galvā \n eksistējošu cilvēku atbalstu", ".story3")
